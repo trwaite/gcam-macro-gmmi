@@ -215,24 +215,32 @@ module_emissions_L212.unmgd_nonco2 <- function(command, ...) {
     L212.GRASSEmissions_prot <- L212.GRASSEmissions %>%
       left_join(L120.LC_prot_land_frac_GLU %>% filter(Land_Type =="Grassland"), by= c("GCAM_region_ID","GLU")) %>%
       mutate(UnmanagedLandTechnology = paste0("Protected", UnmanagedLandTechnology),
-             input.emissions = if_else(is.na(prot_frac),input.emissions * aglu.PROTECT_DEFAULT,input.emissions*prot_frac)) %>%
+             input.emissions = if_else(is.na(prot_frac),
+                                       if_else(GCAM_region_ID == 1, input.emissions * aglu.PROTECT_USA, input.emissions * aglu.PROTECT_DEFAULT),
+                                       input.emissions*prot_frac)) %>%
       select(-GCAM_region_ID, -GLU)
 
     L212.GRASSEmissions_noprot <- L212.GRASSEmissions %>%
       left_join(L120.LC_prot_land_frac_GLU %>% filter(Land_Type =="Grassland") , by= c("GCAM_region_ID","GLU")) %>%
-      mutate(input.emissions = if_else(is.na(prot_frac),input.emissions * (1 - aglu.PROTECT_DEFAULT),input.emissions*(1 - prot_frac))) %>%
+      mutate(input.emissions = if_else(is.na(prot_frac),
+                                       if_else(GCAM_region_ID == 1, input.emissions * (1 - aglu.PROTECT_USA), input.emissions * (1 - aglu.PROTECT_DEFAULT)),
+                                       input.emissions*(1 - prot_frac))) %>%
       select(-GCAM_region_ID, -GLU)
 
     # Forest emissions - fires and deforest
     L212.FORESTEmissions_prot <- L212.FOREST %>%
       left_join(L120.LC_prot_land_frac_GLU %>% filter(Land_Type =="Forest") , by= c("GCAM_region_ID","GLU")) %>%
       mutate(UnmanagedLandTechnology = paste0("Protected", UnmanagedLandTechnology),
-             input.emissions = if_else(is.na(prot_frac),input.emissions * aglu.PROTECT_DEFAULT,input.emissions*prot_frac)) %>%
+             input.emissions = if_else(is.na(prot_frac),
+                                       if_else(GCAM_region_ID == 1, input.emissions * aglu.PROTECT_USA, input.emissions * aglu.PROTECT_DEFAULT),
+                                       input.emissions*prot_frac)) %>%
       select(-GCAM_region_ID, -GLU)
 
     L212.FORESTEmissions_noprot <- L212.FOREST  %>%
       left_join(L120.LC_prot_land_frac_GLU %>% filter(Land_Type =="Forest") , by= c("GCAM_region_ID","GLU")) %>%
-      mutate(input.emissions = if_else(is.na(prot_frac),input.emissions * (1 - aglu.PROTECT_DEFAULT),input.emissions*(1 - prot_frac))) %>%
+      mutate(input.emissions = if_else(is.na(prot_frac),
+                                       if_else(GCAM_region_ID == 1, input.emissions * (1 - aglu.PROTECT_USA), input.emissions * (1 - aglu.PROTECT_DEFAULT)),
+                                       input.emissions*(1 - prot_frac))) %>%
       select(-GCAM_region_ID, -GLU)
 
     # Emissions factors: names in protected files are prefixed, and factors are left unchanged

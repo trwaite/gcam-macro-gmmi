@@ -182,14 +182,18 @@ module_aglu_L222.land_input_2 <- function(command, ...) {
     # L222.LN2_UnmgdAllocation_noprot: unmanaged land cover, no protect
     L222.LN2_HistUnmgdAllocation %>%
       left_join(L120.LC_prot_land_frac_GLU %>%  rename(GLU_code =GLU), by= c("GCAM_region_ID","GLU_code")) %>%
-      mutate(prot_frac = if_else(is.na(prot_frac),aglu.PROTECT_DEFAULT,prot_frac),
+      mutate(prot_frac = if_else(is.na(prot_frac),
+                                 if_else(GCAM_region_ID == 1, aglu.PROTECT_USA, aglu.PROTECT_DEFAULT),
+                                 prot_frac),
              allocation = (1 - prot_frac) * allocation) %>%
       select(LEVEL2_DATA_NAMES[["LN2_HistUnmgdAllocation"]])->
       L222.LN2_HistUnmgdAllocation_noprot
 
     L222.LN2_UnmgdAllocation %>%
       left_join(L120.LC_prot_land_frac_GLU %>%  rename(GLU_code =GLU), by= c("GCAM_region_ID","GLU_code"))%>%
-      mutate(prot_frac = if_else(is.na(prot_frac),aglu.PROTECT_DEFAULT,prot_frac),
+      mutate(prot_frac = if_else(is.na(prot_frac),
+                                 if_else(GCAM_region_ID == 1, aglu.PROTECT_USA, aglu.PROTECT_DEFAULT),
+                                 prot_frac),
              allocation = (1 - prot_frac) * allocation) %>%
       select(LEVEL2_DATA_NAMES[["LN2_UnmgdAllocation"]])-> L222.LN2_UnmgdAllocation_noprot
 
@@ -202,7 +206,9 @@ module_aglu_L222.land_input_2 <- function(command, ...) {
     # L222.LN1_UnmgdAllocation_prot: unmanaged land cover, protected
     L222.LN2_HistUnmgdAllocation %>%
       left_join(L120.LC_prot_land_frac_GLU %>%  rename(GLU_code =GLU), by= c("GCAM_region_ID","GLU_code")) %>%
-      mutate(prot_frac = if_else(is.na(prot_frac),aglu.PROTECT_DEFAULT,prot_frac),
+      mutate(prot_frac = if_else(is.na(prot_frac),
+                                 if_else(GCAM_region_ID == 1, aglu.PROTECT_USA, aglu.PROTECT_DEFAULT),
+                                 prot_frac),
              UnmanagedLandLeaf = paste0("Protected", UnmanagedLandLeaf),
              LandNode1 = UnmanagedLandLeaf,
              allocation = prot_frac * allocation) %>%
@@ -212,7 +218,9 @@ module_aglu_L222.land_input_2 <- function(command, ...) {
 
     L222.LN2_UnmgdAllocation %>%
       left_join(L120.LC_prot_land_frac_GLU %>%  rename(GLU_code =GLU), by= c("GCAM_region_ID","GLU_code")) %>%
-      mutate(prot_frac = if_else(is.na(prot_frac),aglu.PROTECT_DEFAULT,prot_frac),
+      mutate(prot_frac = if_else(is.na(prot_frac),
+                                 if_else(GCAM_region_ID == 1, aglu.PROTECT_USA, aglu.PROTECT_DEFAULT),
+                                 prot_frac),
              UnmanagedLandLeaf = paste0("Protected", UnmanagedLandLeaf),
              LandNode1 = UnmanagedLandLeaf,
              allocation = prot_frac * allocation) %>%

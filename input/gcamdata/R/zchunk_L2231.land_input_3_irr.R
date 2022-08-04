@@ -288,7 +288,9 @@ module_aglu_L2231.land_input_3_irr <- function(command, ...) {
         left_join(base_data %>% select(-GLU_code,-GCAM_region_ID) , by=c("region", "LandAllocatorRoot", "LandNode1", "LandNode2", "LandNode3", "UnmanagedLandLeaf")) %>%
         left_join(min_data, by=c("region", "LandAllocatorRoot", "LandNode1", "LandNode2", "LandNode3", "UnmanagedLandLeaf")) %>%
         left_join(L120.LC_prot_land_frac_GLU %>%  rename(GLU_code =GLU ), by= c("GCAM_region_ID","GLU_code","UnmanagedLandLeaf")) %>%
-        mutate(prot_frac = if_else(is.na(prot_frac),aglu.PROTECT_DEFAULT,prot_frac),
+        mutate(prot_frac = if_else(is.na(prot_frac),
+                                   if_else(GCAM_region_ID == 1, aglu.PROTECT_USA, aglu.PROTECT_DEFAULT),
+                                   prot_frac),
                allocation = if_else(min_allocation < prot_frac * base_allocation,
                                     (1 - prot_frac) * allocation,
                                     allocation - prot_frac * base_allocation))# %>%
@@ -338,7 +340,9 @@ module_aglu_L2231.land_input_3_irr <- function(command, ...) {
         left_join(base_data %>%  select(-GLU_code,-GCAM_region_ID), by=c("region", "LandAllocatorRoot", "LandNode1", "LandNode2", "LandNode3", "UnmanagedLandLeaf")) %>%
         left_join(min_data, by=c("region", "LandAllocatorRoot", "LandNode1", "LandNode2", "LandNode3", "UnmanagedLandLeaf")) %>%
         left_join(L120.LC_prot_land_frac_GLU %>%  rename(GLU_code =GLU ), by= c("GCAM_region_ID","GLU_code","UnmanagedLandLeaf")) %>%
-        mutate(prot_frac = if_else(is.na(prot_frac),aglu.PROTECT_DEFAULT,prot_frac),
+        mutate(prot_frac = if_else(is.na(prot_frac),
+                                   if_else(GCAM_region_ID == 1, aglu.PROTECT_USA, aglu.PROTECT_DEFAULT),
+                                   prot_frac),
                UnmanagedLandLeaf = paste0("Protected", UnmanagedLandLeaf),
                LandNode1 = UnmanagedLandLeaf,
                LandNode2 = NULL,

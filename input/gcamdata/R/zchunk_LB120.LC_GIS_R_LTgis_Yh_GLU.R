@@ -99,6 +99,10 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
       mutate(prot_frac = value/Tot_land, non_prot_frac = 1 -(value/Tot_land)) %>%
       select(GCAM_region_ID, year, GLU,prot_frac, non_prot_frac,Land_Type) -> L120.LC_prot_land_frac_GLU
 
+    L120.LC_prot_land_frac_GLU <- L120.LC_prot_land_frac_GLU %>%
+      mutate(prot_frac = if_else(GCAM_region_ID == 1, aglu.PROTECT_USA, prot_frac),
+             non_prot_frac = if_else(GCAM_region_ID == 1, 1- aglu.PROTECT_USA, non_prot_frac))
+
     if(aglu.PROTECTION_DATA_SOURCE_DEFAULT == TRUE){
 
       L120.LC_prot_land_frac_GLU %>%
