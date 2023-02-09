@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name = "USA">
+            <supplysector name = "electricity">
+                <subsector name = "geothermal">
+                    <share-weight fillout = "1" year = "2100">0.1</share-weight>
+                    <share-weight year = "2100">0.1</share-weight>
+                    <interpolation-rule apply-to = "share-weight" from-year = "2015" to-year = "2025">
+                        <interpolation-function name = "fixed"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name = "solar">
+                    <share-weight fillout = "1" year = "2050">1</share-weight>
+                    <share-weight year = "2100">1</share-weight>
+                    <interpolation-rule apply-to = "share-weight" from-year = "2015" to-year = "2050">
+                        <to-value>1</to-value>
+                        <interpolation-function name = "linear"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to = "share-weight" from-year = "2050" to-year = "2100">
+                        <to-value>1</to-value>
+                        <interpolation-function name = "fixed"/>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name = "wind">
+                    <share-weight fillout = "1" year = "2050">1</share-weight>
+                    <share-weight year = "2100">1</share-weight>
+                    <interpolation-rule apply-to = "share-weight" from-year = "2015" to-year = "2050">
+                        <to-value>1</to-value>
+                        <interpolation-function name = "linear"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to = "share-weight" from-year = "2050" to-year = "2100">
+                        <to-value>1</to-value>
+                        <interpolation-function name = "fixed"/>
+                    </interpolation-rule>
+                    <stub-technology name = "wind_offshore">
+                        <interpolation-rule apply-to = "share-weight" from-year = "2015" to-year = "2020">
+                            <interpolation-function name = "fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+                </subsector>
+                <subsector name = "refined liquids">
+                    <interpolation-rule apply-to = "share-weight" from-year = "2015" to-year = "2020">
+                        <to-value>0</to-value>
+                        <interpolation-function name = "linear"/>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

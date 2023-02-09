@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="electricity">
+                <subsector name="nuclear">
+                    <stub-technology name="Gen_II_LWR">
+                        <period year="2015">
+                            <lifetime>-1</lifetime>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Gen_III">
+                        <period year="2015">
+                            <lifetime>-1</lifetime>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

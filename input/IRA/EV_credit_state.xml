@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="trn_pass_road_LDV_4W">
+                <subsector name="Car">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0125</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0125</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0125</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0124</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0124</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0123</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FCEV">
+                        <period year="2025">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0185</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0182</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0179</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0176</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0173</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.017</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="Large Car and Truck">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0157</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0156</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0155</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0155</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0154</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0154</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FCEV">
+                        <period year="2025">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0226</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0222</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0218</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0215</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0211</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="state_EV_credits">
+                                <input-cost>-0.0208</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

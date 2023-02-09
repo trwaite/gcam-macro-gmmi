@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="electricity">
+                <subsector name="coal">
+                    <stub-technology name="coal (conv pul CCS)">
+                        <period year="2030">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.566</fixedOutput>
+                        </period>
+                        <period year="2035">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.756</fixedOutput>
+                        </period>
+                        <period year="2040">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.826</fixedOutput>
+                        </period>
+                    </stub-technology>
+                </subsector>
+
+                <subsector name="gas">
+                    <stub-technology name="gas (CC CCS)">
+                        <period year="2025">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.162</fixedOutput>
+                        </period>
+                        <period year="2030">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.564</fixedOutput>
+                        </period>
+                        <period year="2035">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.821</fixedOutput>
+                        </period>
+                        <period year="2040">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.971</fixedOutput>
+                        </period>
+                        <period year="2045">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>1.130</fixedOutput>
+                        </period>
+                        <period year="2050">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>1.430</fixedOutput>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

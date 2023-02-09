@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="electricity">
+                <subsector name="nuclear">
+                    <stub-technology name="Gen_II_LWR">
+                        <period year="2020">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>2.850336205</fixedOutput>
+                        </period>
+                        <period year="2025">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>2.816243129</fixedOutput>
+                        </period>
+                        <period year="2030">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>2.816243129</fixedOutput>
+                        </period>
+                        <period year="2035">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>2.816243129</fixedOutput>
+                        </period>
+                        <period year="2040">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>2.816243129</fixedOutput>
+                        </period>
+                        <period year="2045">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>2.816243129</fixedOutput>
+                        </period>
+                        <period year="2050">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>2.816243129</fixedOutput>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

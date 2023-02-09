@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+
+            <supplysector name="electricity">
+                <subsector name="coal">
+				<stub-technology name="coal (conv pul)">
+
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+				</stub-technology >
+				<stub-technology name="coal (IGCC)">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+				</stub-technology >
+                </subsector>
+            </supplysector>
+
+
+        </region>
+   </world>
+</scenario>

@@ -1,0 +1,3988 @@
+<scenario>
+	<world>
+		<region name="Canada">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="South Korea">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="USA">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="Europe_Non_EU">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="Mexico">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="Japan">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="Middle East">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="European Free Trade Association">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="EU-12">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="South America_Southern">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="EU-15">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+		<region name="Australia_NZ">
+			<supplysector name="H2 central production" nocreate="1">
+				<subsector name="coal" nocreate="1">
+					<stub-technology name="coal chemical" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal chemical CCS" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="gas processing" nocreate="1">
+				<subsector name="coal gasification" nocreate="1">
+					<stub-technology name="coal gasification" nocreate="1">						
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+			<supplysector name="refining" nocreate="1">
+				<subsector name="coal to liquids" nocreate="1">
+					<stub-technology name="coal to liquids" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 1" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+					<stub-technology name="coal to liquids CCS level 2" nocreate="1">
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2055">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2060">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2065">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2070">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2075">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2080">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2085">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2090">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2095">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                     <share-weight>0</share-weight>
+                  </period>
+					</stub-technology>
+				</subsector>
+			</supplysector>
+		</region>
+	</world>
+</scenario>

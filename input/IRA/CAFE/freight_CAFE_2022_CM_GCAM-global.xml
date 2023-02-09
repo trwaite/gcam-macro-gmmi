@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="trn_freight_road">
+                <tranSubsector name="Heavy truck">
+                    <stub-technology name="Liquids">
+                        <period year="2025">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>11223.14792</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>10145.53028</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>10145.53028</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>9642.1</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>9521.6</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>9401.1</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+                <tranSubsector name="Light truck">
+                    <stub-technology name="Liquids">
+                        <period year="2025">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>3479.845983</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>3201.613345</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>3201.613345</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>2934.2</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>2892.6</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>2851.1</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+                <tranSubsector name="Medium truck">
+                    <stub-technology name="Liquids">
+                        <period year="2025">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>5864.964257</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>5401.736458</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>5112.2</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>4716.9</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>4639.5</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids enduse">
+                                <coefficient>4562.1</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

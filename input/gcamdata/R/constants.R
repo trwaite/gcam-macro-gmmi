@@ -384,7 +384,7 @@ aglu.NONPROTECT_LAND_STATUS <- c("SuitableUnprotected","Unknown")
 aglu.PROTECT_DEFAULT<- 0.9
 
 #Set the constants below to select the data source for carbon initialization. Currently set to `houghton`. Alternatively, this can be set to 'moirai'
-aglu.CARBON_DATA_SOURCE <- "moirai"
+aglu.CARBON_DATA_SOURCE <- "houghton"
 
 # Available options for aglu.CARBON_STATE are median_value (median of all available grid cells), min_value (minimum of all available grid cells), max_value (maximum of all available grid cells),
 # weighted_average (weighted average of all available grid cells using the land area as a weight), q1_value (first quartile of all available grid cells) and q3_value (3rd quartile of all available grid cells).

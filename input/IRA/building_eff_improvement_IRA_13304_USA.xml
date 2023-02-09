@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <gcam-consumer name="resid">
+                <nodeInput name="resid">
+                    <building-node-input name="resid_building">
+                        <shell-conductance year="1975">0.999</shell-conductance>
+                        <floor-to-surface-ratio year="1975">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="1990">0.995</shell-conductance>
+                        <floor-to-surface-ratio year="1990">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2005">0.991</shell-conductance>
+                        <floor-to-surface-ratio year="2005">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2010">0.99</shell-conductance>
+                        <floor-to-surface-ratio year="2010">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2015">0.96</shell-conductance>
+                        <floor-to-surface-ratio year="2015">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2020">0.89</shell-conductance>
+                        <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2025">0.86</shell-conductance>
+                        <floor-to-surface-ratio year="2025">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2030">0.83</shell-conductance>
+                        <floor-to-surface-ratio year="2030">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2035">0.8</shell-conductance>
+                        <floor-to-surface-ratio year="2035">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2040">0.78</shell-conductance>
+                        <floor-to-surface-ratio year="2040">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2045">0.778</shell-conductance>
+                        <floor-to-surface-ratio year="2045">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2050">0.775</shell-conductance>
+                        <floor-to-surface-ratio year="2050">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2055">0.772</shell-conductance>
+                        <floor-to-surface-ratio year="2055">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2060">0.77</shell-conductance>
+                        <floor-to-surface-ratio year="2060">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2065">0.768</shell-conductance>
+                        <floor-to-surface-ratio year="2065">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2070">0.765</shell-conductance>
+                        <floor-to-surface-ratio year="2070">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2075">0.762</shell-conductance>
+                        <floor-to-surface-ratio year="2075">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2080">0.76</shell-conductance>
+                        <floor-to-surface-ratio year="2080">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2085">0.758</shell-conductance>
+                        <floor-to-surface-ratio year="2085">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2090">0.755</shell-conductance>
+                        <floor-to-surface-ratio year="2090">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2095">0.752</shell-conductance>
+                        <floor-to-surface-ratio year="2095">5.5</floor-to-surface-ratio>
+                        <shell-conductance year="2100">0.75</shell-conductance>
+                        <floor-to-surface-ratio year="2100">5.5</floor-to-surface-ratio>
+                    </building-node-input>
+                </nodeInput>
+            </gcam-consumer>
+        </region>
+    </world>
+</scenario>
