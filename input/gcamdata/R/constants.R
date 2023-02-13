@@ -382,7 +382,7 @@ aglu.NONPROTECT_LAND_STATUS <- c("SuitableUnprotected","Unknown")
 
 # Default fraction for protected land. This is used if the aglu.PROTECTION_DATA_SOURCE is set to TRUE or if protection data is unavailable.
 aglu.PROTECT_DEFAULT <- 0.9
-aglu.PROTECT_USA <- 0.1
+aglu.PROTECT_USA <- 0
 
 #Set the constants below to select the data source for carbon initialization. Currently set to `houghton`. Alternatively, this can be set to 'moirai'
 aglu.CARBON_DATA_SOURCE <- "houghton"

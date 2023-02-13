@@ -4,13 +4,13 @@
             <ghgpolicy name="CO2_LUC">
                 <market>USA</market>
                 <isFixedTax>1</isFixedTax>
-                <fixedTax year="2020">5</fixedTax>
-                <fixedTax year="2025">5</fixedTax>
-                <fixedTax year="2030">5</fixedTax>
-                <fixedTax year="2035">5</fixedTax>
-                <fixedTax year="2040">5</fixedTax>
-                <fixedTax year="2045">5</fixedTax>
-                <fixedTax year="2050">5</fixedTax>
+                <fixedTax year="2020">3</fixedTax>
+                <fixedTax year="2025">12</fixedTax>
+                <fixedTax year="2030">25</fixedTax>
+                <fixedTax year="2035">45</fixedTax>
+                <fixedTax year="2040">65</fixedTax>
+                <fixedTax year="2045">95</fixedTax>
+                <fixedTax year="2050">130</fixedTax>
             </ghgpolicy>
         </region>
     </world>
