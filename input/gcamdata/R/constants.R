@@ -563,8 +563,12 @@ energy.TRAN_UCD_MODE<-'rev.mode'
 energy.TRAN_UCD_SIZE_CLASS<-'rev_size.class'
 
 # Constants related to ATB power sector technology costs
-energy.ATB_2017_YEARS <- c(2015:2016)
-energy.ATB_BASE_YEAR <- 2015
+# Define a list with all relevant ATB database years included in NREL_ATB_capital file (energy.ATB_HISTORICAL_YEARS)
+energy.ATB_HISTORICAL_YEARS <- c(2017, 2019, 2021, 2022)
+# Here, we allow for user selectivity. Improvement parameters are taken from the latest ATB year
+# but the user can choose an ATB base year from recent history (from 2015-energy.ATB_LATEST_YEAR)
+energy.ATB_BASE_YEAR <- max(energy.ATB_HISTORICAL_YEARS) - 2
+energy.ATB_LATEST_YEAR <- 2020
 energy.ATB_MID_YEAR <- 2035
 energy.ATB_TARGET_YEAR <- 2035
 gcamusa.STORAGE_TECH <- "battery"
@@ -574,6 +578,9 @@ energy.COSTS_LOW_CASE <- "low tech"
 energy.CAPITAL_INPUT <- "capital"
 energy.OM_FIXED_INPUT <- "OM-fixed"
 energy.OM_VAR_INPUT <- "OM-var"
+# Constraint to check disagreement between ATB datasets. If this ratio varies by a factor of 0.3, we will copy back costs
+# from the latest year in the ATB dataset
+energy.ATB_OVERLAP_CONSTRAINT <- 0.3
 
 # Constants for the residential sector: Parameters for USA (estimated offline) and unadjusted saturation values:
 energy.OBS_UNADJ_SAT <- 100
