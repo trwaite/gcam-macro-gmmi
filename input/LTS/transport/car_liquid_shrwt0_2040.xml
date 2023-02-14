@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <global-technology-database>
+         <location-info sector-name="trn_pass_road_LDV" subsector-name="2W and 3W">
+            <tranTechnology name="Liquids">
+               <period year="2035">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2040">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+         </location-info>
+         
+         <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Car">
+ 		<tranTechnology name="Liquids">
+               <period year="2035">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2040">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+            <tranTechnology name="Hybrid Liquids">
+               <period year="2035">
+                  <share-weight>0.2</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2040">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+         </location-info>
+         <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Large Car and Truck">
+            	<tranTechnology name="Liquids">
+               <period year="2035">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2040">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+            <tranTechnology name="Hybrid Liquids">
+               <period year="2035">
+                  <share-weight>0.2</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2040">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+         </location-info>
+         <location-info sector-name="trn_pass_road_LDV_4W" subsector-name="Mini Car">
+            	<tranTechnology name="Liquids">
+               <period year="2035">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2040">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+            <tranTechnology name="Hybrid Liquids">
+               <period year="2035">
+                  <share-weight>0.2</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2040">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+         </location-info>
+       
+      </global-technology-database>
+   </world>
+</scenario>

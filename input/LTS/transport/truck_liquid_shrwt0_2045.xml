@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <global-technology-database>
+         <location-info sector-name="trn_freight_road" subsector-name="Light truck">
+            <tranTechnology name="Liquids">
+               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <interpolation-function name="fixed"/>
+                </interpolation-rule>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+		     <tranTechnology name="Hybrid Liquids">
+               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <interpolation-function name="fixed"/>
+                </interpolation-rule>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+         </location-info>
+         
+         <location-info sector-name="trn_freight_road" subsector-name="Medium truck">
+ 		<tranTechnology name="Liquids">
+               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <interpolation-function name="fixed"/>
+                </interpolation-rule>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+            <tranTechnology name="Hybrid Liquids">
+               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <interpolation-function name="fixed"/>
+                </interpolation-rule>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+         </location-info>
+         <location-info sector-name="trn_freight_road" subsector-name="Heavy truck">
+            	<tranTechnology name="Liquids">
+               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <interpolation-function name="fixed"/>
+                </interpolation-rule>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+            <tranTechnology name="Hybrid Liquids">
+               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <interpolation-function name="fixed"/>
+                </interpolation-rule>
+               <period year="2045">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+               <period year="2050">
+                  <share-weight>0</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
+            </tranTechnology>
+         </location-info>
+       
+      </global-technology-database>
+   </world>
+</scenario>

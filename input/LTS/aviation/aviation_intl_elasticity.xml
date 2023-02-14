@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+		<energy-final-demand name="trn_aviation_intl">
+                <perCapitaBased>1</perCapitaBased>
+                <final-energy-consumer/>
+                <price-elasticity year="2020">-1</price-elasticity>
+                <price-elasticity year="2025">-0.1</price-elasticity>
+                <price-elasticity year="2030">-0.1</price-elasticity>
+                <price-elasticity year="2035">-0.1</price-elasticity>
+                <price-elasticity year="2040">-0.1</price-elasticity>
+                <price-elasticity year="2045">-0.35</price-elasticity>
+                <price-elasticity year="2050">-0.35</price-elasticity>
+                <price-elasticity year="2055">-0.1</price-elasticity>
+                <price-elasticity year="2060">-0.1</price-elasticity>
+                <price-elasticity year="2065">-0.1</price-elasticity>
+                <price-elasticity year="2070">-0.1</price-elasticity>
+                <price-elasticity year="2075">-0.1</price-elasticity>
+                <price-elasticity year="2080">-0.1</price-elasticity>
+                <price-elasticity year="2085">-0.1</price-elasticity>
+                <price-elasticity year="2090">-0.1</price-elasticity>
+                <price-elasticity year="2095">-0.1</price-elasticity>
+                <price-elasticity year="2100">-0.1</price-elasticity>
+                <income-elasticity year="2020">1</income-elasticity>
+                <income-elasticity year="2025">1</income-elasticity>
+                <income-elasticity year="2030">1</income-elasticity>
+                <income-elasticity year="2035">1</income-elasticity>
+                <income-elasticity year="2040">1</income-elasticity>
+                <income-elasticity year="2045">1</income-elasticity>
+                <income-elasticity year="2050">1</income-elasticity>
+                <income-elasticity year="2055">1</income-elasticity>
+                <income-elasticity year="2060">1</income-elasticity>
+                <income-elasticity year="2065">1</income-elasticity>
+                <income-elasticity year="2070">1</income-elasticity>
+                <income-elasticity year="2075">1</income-elasticity>
+                <income-elasticity year="2080">1</income-elasticity>
+                <income-elasticity year="2085">1</income-elasticity>
+                <income-elasticity year="2090">1</income-elasticity>
+                <income-elasticity year="2095">1</income-elasticity>
+                <income-elasticity year="2100">1</income-elasticity>
+                <base-service year="1975">241155.291382415</base-service>
+                <base-service year="1990">361177.917488046</base-service>
+                <base-service year="2005">399347.180280951</base-service>
+                <base-service year="2010">343061.82883682</base-service>
+                <base-service year="2015">381234.925801361</base-service>
+            </energy-final-demand>
+
+      </region>
+   </world>
+</scenario>

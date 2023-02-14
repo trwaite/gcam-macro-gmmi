@@ -1,0 +1,3548 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="refining" subsector-name="biomass liquids">
+                <technology name="cellulosic ethanol">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.8401</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                </technology>
+                <technology name="cellulosic ethanol CCS level 1">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.9949</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                </technology>
+                <technology name="cellulosic ethanol CCS level 2">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.62</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.4114</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                </technology>
+                <technology name="FT biofuels">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>3.9931</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                </technology>
+                <technology name="FT biofuels CCS level 1">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>4.3674</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                </technology>
+                <technology name="FT biofuels CCS level 2">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>2.18</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>5.296</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="aviation fuels" subsector-name="biomass liquids">
+                <technology name="cellulosic ethanol">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>7.8146</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                </technology>
+                <technology name="cellulosic ethanol CCS level 1">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.02</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.225</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                </technology>
+                <technology name="cellulosic ethanol CCS level 2">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>3.52</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-energy-input name="H2 industrial">
+                            <coefficient>0.0676</coefficient>
+                        </minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>8.5715</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.958</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>0.2</output-ratio>
+                        </secondary-output>
+                    </period>
+                </technology>
+                <technology name="FT biofuels">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>12.4324</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                </technology>
+                <technology name="FT biofuels CCS level 1">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>13.3498</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.352</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                </technology>
+                <technology name="FT biofuels CCS level 2">
+                    <period year="1975">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="regional biomass">
+                            <coefficient>5.33</coefficient>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>16.5268</input-cost>
+                        </minicam-non-energy-input>
+                        <standard-capture-component>
+                            <remove-fraction>0.986</remove-fraction>
+                            <storage-market>carbon-storage</storage-market>
+                        </standard-capture-component>
+                        <secondary-output name="refining">
+                            <output-ratio>1.4</output-ratio>
+                        </secondary-output>
+                    </period>
+                </technology>
+            </location-info>
+        </global-technology-database>
+    </world>
+</scenario>

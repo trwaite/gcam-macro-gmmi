@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <energy-final-demand name="cement">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.014</aeei>
+                    <aeei year="2025">-0.004</aeei>
+                    <aeei year="2030">0.005</aeei>
+					<aeei year="2035">0.005</aeei>
+					<aeei year="2040">0.005</aeei>
+					<aeei year="2045">0.005</aeei>
+					<aeei year="2050">0.005</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="chemical">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.014</aeei>
+                    <aeei year="2025">-0.004</aeei>
+                    <aeei year="2030">0.005</aeei>
+					<aeei year="2035">0.005</aeei>
+					<aeei year="2040">0.005</aeei>
+					<aeei year="2045">0.005</aeei>
+					<aeei year="2050">0.005</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="iron and steel">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.014</aeei>
+                    <aeei year="2025">-0.004</aeei>
+                    <aeei year="2030">0.005</aeei>
+					<aeei year="2035">0.005</aeei>
+					<aeei year="2040">0.005</aeei>
+					<aeei year="2045">0.005</aeei>
+					<aeei year="2050">0.005</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="other industry">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.014</aeei>
+                    <aeei year="2025">-0.004</aeei>
+                    <aeei year="2030">0.005</aeei>
+					<aeei year="2035">0.005</aeei>
+					<aeei year="2040">0.005</aeei>
+					<aeei year="2045">0.005</aeei>
+					<aeei year="2050">0.005</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="construction">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.014</aeei>
+                    <aeei year="2025">-0.004</aeei>
+                    <aeei year="2030">0.005</aeei>
+					<aeei year="2035">0.005</aeei>
+					<aeei year="2040">0.005</aeei>
+					<aeei year="2045">0.005</aeei>
+					<aeei year="2050">0.005</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="mining energy use">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.014</aeei>
+                    <aeei year="2025">-0.004</aeei>
+                    <aeei year="2030">0.005</aeei>
+					<aeei year="2035">0.005</aeei>
+					<aeei year="2040">0.005</aeei>
+					<aeei year="2045">0.005</aeei>
+					<aeei year="2050">0.005</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+        </region>
+    </world>
+</scenario>

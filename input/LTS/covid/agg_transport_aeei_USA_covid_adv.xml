@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <energy-final-demand name="trn_pass">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.0269</aeei>
+                    <aeei year="2025">-0.0269</aeei>
+                    <aeei year="2030">0</aeei>
+                    <aeei year="2035">0</aeei>
+                    <aeei year="2040">0</aeei>
+                    <aeei year="2045">0</aeei>
+                    <aeei year="2050">0</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="trn_freight">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.0185</aeei>
+                    <aeei year="2025">0</aeei>
+                    <aeei year="2030">0.004625</aeei>
+                    <aeei year="2035">0.004625</aeei>
+                    <aeei year="2040">0.004625</aeei>
+                    <aeei year="2045">0.004625</aeei>
+                    <aeei year="2050">0.004625</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="trn_aviation_intl">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.0538</aeei>
+                    <aeei year="2025">-0.0269</aeei>
+                    <aeei year="2030">0</aeei>
+                    <aeei year="2035">0</aeei>
+                    <aeei year="2040">0</aeei>
+                    <aeei year="2045">0</aeei>
+                    <aeei year="2050">0</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+            <energy-final-demand name="trn_shipping_intl">
+                <final-energy-consumer>
+                    <aeei year="2015">0</aeei>
+                    <aeei year="2020">0.0185</aeei>
+                    <aeei year="2025">0</aeei>
+                    <aeei year="2030">0.004625</aeei>
+                    <aeei year="2035">0.004625</aeei>
+                    <aeei year="2040">0.004625</aeei>
+                    <aeei year="2045">0.004625</aeei>
+                    <aeei year="2050">0.004625</aeei>
+                </final-energy-consumer>
+            </energy-final-demand>
+        </region>
+    </world>
+</scenario>

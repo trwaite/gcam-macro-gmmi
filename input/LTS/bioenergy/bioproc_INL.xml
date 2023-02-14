@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="regional biomass">
+                <subsector name="regional biomass">
+                    <stub-technology name="regional biomass">
+                        <period year="1975">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="total biomass">
+                                <coefficient>1.0735</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0145</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>7e-04</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.6771</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

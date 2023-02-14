@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name = "USA">
+         <supplysector name = "aviation fuels">
+            <subsector name = "biomass liquids">
+ 				<stub-technology name = "cellulosic ethanol">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+               <stub-technology name = "cellulosic ethanol CCS level 1">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+               <stub-technology name = "cellulosic ethanol CCS level 2">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+               <stub-technology name = "FT biofuels">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+               <stub-technology name = "FT biofuels CCS level 1">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+               <stub-technology name = "FT biofuels CCS level 2">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+            </subsector>
+            <subsector name = "coal to liquids">
+               <stub-technology name = "coal to liquids">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+               <stub-technology name = "coal to liquids CCS level 1">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+               <stub-technology name = "coal to liquids CCS level 2">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+            </subsector>
+            <subsector name = "gas to liquids">
+               <stub-technology name = "gas to liquids">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+            </subsector>
+            <subsector name = "oil refining">
+               <stub-technology name = "oil refining">
+                  <period year = "2045">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+                  <period year = "2050">
+                     <input-subsidy name = "AvFuel-floor"/>
+                  </period>
+               </stub-technology>
+            </subsector>
+         </supplysector>
+      </region>
+   </world>
+</scenario>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+        <region name="USA">
+            <supplysector name="H2 central production">
+                <subsector name="biomass">
+					<interpolation-rule apply-to="share-weight"
+                        from-year="2050" to-year="2100" delete="1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight fillout="1" year="2020">0</share-weight>
+                    <share-weight fillout="1" year="2025">0.2</share-weight>
+                    <share-weight fillout="1" year="2030">0.4</share-weight>
+                    <share-weight fillout="1" year="2035">0.6</share-weight>
+                    <share-weight fillout="1" year="2040">0.8</share-weight>
+                    <share-weight fillout="1" year="2045">1</share-weight>
+                    <share-weight fillout="1" year="2050">1</share-weight>
+                </subsector>
+            </supplysector>
+            
+        </region>
+   </world>
+</scenario>
