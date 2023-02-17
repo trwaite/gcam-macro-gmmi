@@ -7,6 +7,10 @@
                <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
                   <interpolation-function name="fixed"/>
                 </interpolation-rule>
+               <period year="2040">
+                  <share-weight>0.5</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
                <period year="2045">
                   <share-weight>0</share-weight>
                   <CO2 name="CO2"/>
@@ -20,6 +24,10 @@
                <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
                   <interpolation-function name="fixed"/>
                 </interpolation-rule>
+               <period year="2040">
+                  <share-weight>0.5</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
                <period year="2045">
                   <share-weight>0</share-weight>
                   <CO2 name="CO2"/>
@@ -36,6 +44,10 @@
                <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
                   <interpolation-function name="fixed"/>
                 </interpolation-rule>
+               <period year="2040">
+                  <share-weight>0.5</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
                <period year="2045">
                   <share-weight>0</share-weight>
                   <CO2 name="CO2"/>
@@ -49,6 +61,10 @@
                <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
                   <interpolation-function name="fixed"/>
                 </interpolation-rule>
+               <period year="2040">
+                  <share-weight>0.5</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
                <period year="2045">
                   <share-weight>0</share-weight>
                   <CO2 name="CO2"/>
@@ -64,6 +80,10 @@
                <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
                   <interpolation-function name="fixed"/>
                 </interpolation-rule>
+               <period year="2040">
+                  <share-weight>0.5</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
                <period year="2045">
                   <share-weight>0</share-weight>
                   <CO2 name="CO2"/>
@@ -77,6 +97,10 @@
                <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
                   <interpolation-function name="fixed"/>
                 </interpolation-rule>
+               <period year="2040">
+                  <share-weight>0.5</share-weight>
+                  <CO2 name="CO2"/>
+               </period>
                <period year="2045">
                   <share-weight>0</share-weight>
                   <CO2 name="CO2"/>

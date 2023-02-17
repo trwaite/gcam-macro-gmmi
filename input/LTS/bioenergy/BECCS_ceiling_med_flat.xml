@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <ghgpolicy name="BECCS_ceiling">
+                <market>USA</market>
+                <constraint year="2020">400</constraint>
+                <constraint year="2025">400</constraint>
+                <constraint year="2030">400</constraint>
+                <constraint year="2035">400</constraint>
+                <constraint year="2040">400</constraint>
+                <constraint year="2045">400</constraint>
+                <constraint year="2050">400</constraint>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

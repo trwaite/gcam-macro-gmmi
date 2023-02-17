@@ -8,9 +8,9 @@
                 <fixedTax year="2025">20</fixedTax>
                 <fixedTax year="2030">40</fixedTax>
                 <fixedTax year="2035">85</fixedTax>
-                <fixedTax year="2040">140</fixedTax>
-                <fixedTax year="2045">250</fixedTax>
-                <fixedTax year="2050">650</fixedTax>
+                <fixedTax year="2040">160</fixedTax>
+                <fixedTax year="2045">300</fixedTax>
+                <fixedTax year="2050">800</fixedTax>
             </ghgpolicy>
         </region>
     </world>

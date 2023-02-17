@@ -6,21 +6,21 @@
                 <market>USA</market>
                                 <min-price fillout="1" year="2025">1.0</min-price>
                 <constraint year="2025">5280</constraint>
-                <constraint year="2030">4334</constraint>
-                <constraint year="2035">3388</constraint>
-                <constraint year="2040">2442</constraint>
-                <constraint year="2045">1496</constraint>
-                <constraint year="2050">550</constraint>
-                <constraint year="2055">550</constraint>
-                <constraint year="2060">550</constraint>
-                <constraint year="2065">550</constraint>
-                <constraint year="2070">550</constraint>
-                <constraint year="2075">550</constraint>
-                <constraint year="2080">550</constraint>
-                <constraint year="2085">550</constraint>
-                <constraint year="2090">550</constraint>
-                <constraint year="2095">550</constraint>
-                <constraint year="2100">550</constraint>
+                <constraint year="2030">4384</constraint>
+                <constraint year="2035">3488</constraint>
+                <constraint year="2040">2592</constraint>
+                <constraint year="2045">1696</constraint>
+                <constraint year="2050">800</constraint>
+                <constraint year="2055">750</constraint>
+                <constraint year="2060">750</constraint>
+                <constraint year="2065">750</constraint>
+                <constraint year="2070">750</constraint>
+                <constraint year="2075">750</constraint>
+                <constraint year="2080">750</constraint>
+                <constraint year="2085">750</constraint>
+                <constraint year="2090">750</constraint>
+                <constraint year="2095">750</constraint>
+                <constraint year="2100">750</constraint>
             </policy-portfolio-standard>
         </region>
         <region name="Africa_Eastern">

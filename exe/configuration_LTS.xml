@@ -138,21 +138,32 @@
 
 	         <!--COVID-->
 			<Value name="industry_adv">../input/LTS/covid/agg_industry_aeei_USA_covid_adv.xml</Value>
-			<Value name="transport_covid">../input/LTS/covid/agg_transport_aeei_USA_covid_adv.xml</Value>
+			<!--Value name="transport_covid">../input/LTS/covid/agg_transport_aeei_USA_covid_adv.xml</Value-->
+			<Value name="transport_covid">../input/LTS/covid/agg_transport_aeei_USA_covid_adv_to2025.xml</Value>
 
 	         <!--Policy-->
-			<Value name="ghg_constraint">../input/LTS/policy/DECARB2b_ghg_constraint.xml</Value>
+			<Value name="ghg_constraint">../input/LTS/policy/LTS_ghg_constraint.xml</Value>
 			<Value name="ghg_link">../input/LTS/policy/LTS_ghg_link.xml</Value>
 			<Value name="LUC_tax">../input/LTS/policy/LUC_carbon_tax.xml</Value>
 
+	         <!--BECCS Ceiling-->
+			<Value name = "BECCS_mkt">../input/LTS/bioenergy/BECCS_mkt.xml</Value>
+            <Value name = "BECCS_ceiling">../input/LTS/bioenergy/BECCS_ceiling_med_flat.xml</Value>
+            <Value name = "BECCS_link">../input/LTS/bioenergy/BECCS_link.xml</Value>
+
 	         <!--Buildings-->		
 			<Value name="bld_shell_USA">../input/LTS/buildings/bld_shell_USA.xml</Value>
+			<Value name="bld_eff_USA">../input/LTS/buildings/building_eff_USA.xml</Value>
+
+	         <!--Industry-->		
+			<Value name="ind_eff_USA">../input/LTS/industry/industry_eff_USA.xml</Value>
 
          <!--Electricity-->
          <Value name = "nonewcoal">../input/LTS/electricity/coal_shwt_0.xml</Value>
          <Value name = "nonewgas">../input/LTS/electricity/GasElec_Shrwt_zero2025.xml</Value>
          <Value name = "coalRetirement2015">../input/LTS/electricity/coal_USA2015_exoshutdown.xml</Value>
 		<Value name="ATB_addon">../input/LTS/electricity/ATB_2021_mid.xml</Value>
+         <Value name = "constantNuclear">../input/LTS/electricity/nuclear_USA2015_constant.xml</Value>
 
 	         <!--Transport_HighEV-->		
 			<Value name="zeroLiq">../input/LTS/transport/car_liquid_shrwt0_2040.xml</Value>
@@ -163,7 +174,7 @@
          <!--CAFE-->
          <Value name = "ldvCAFE">../input/CAFE/CAFE_LDV_CurPol_GCAM-global.xml</Value>
          <Value name = "freightCAFE">../input/CAFE/freight_CAFE_2022_CM_GCAM-global.xml</Value>
-         <Value name = "hybridSHWT">../input/CAFE/Hybrid_shrwt_2_GCAM-global.xml</Value>
+         <!--Value name = "hybridSHWT">../input/CAFE/Hybrid_shrwt_2_GCAM-global.xml</Value-->
 
 		
 	</ScenarioComponents>
