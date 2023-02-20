@@ -169,7 +169,8 @@
 			<Value name="zeroLiq">../input/LTS/transport/car_liquid_shrwt0_2040.xml</Value>
 			<Value name="zeroLiqInterp">../input/LTS/transport/car_liq_shwtInterp.xml</Value>
 			<Value name="hitruckEV">../input/LTS/transport/truck_ev_shrwt_hi.xml</Value>
-			<Value name="zeroLiq">../input/LTS/transport/truck_liquid_shrwt0_2045.xml</Value>
+			<Value name="zeroLiq">../input/LTS/transport/truck_liquid_shrwt0_2050.xml</Value>
+			<Value name="freightlogit">../input/LTS/transport/freight_logit.xml</Value>
 
          <!--CAFE-->
          <Value name = "ldvCAFE">../input/CAFE/CAFE_LDV_CurPol_GCAM-global.xml</Value>
