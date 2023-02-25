@@ -1,0 +1,2954 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="chemical energy use">
+                <subsector name="biomass">
+                    <stub-technology name="biomass">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.802</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.805208</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.808428832</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.811662547328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.814909197517312</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.802</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.805208</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.808428832</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.811662547328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.814909197517312</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.565</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.57065</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.5763565</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.582120064999999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.587941265649999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="coal">
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.898</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.903388</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.908808328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.914261177967999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.919746745035807</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.898</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.903388</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.908808328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.914261177967999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.919746745035807</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.634</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.64034</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.6467434</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.653210834</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.659742942339999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0373</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0497476</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0623445712</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0750927060544</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="gas">
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.908</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.918896</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.929922752</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.941081825024</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.952374806924288</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.908</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.918896</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.929922752</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.941081825024</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.952374806924288</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.618</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.62418</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.6304218</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.636726018</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.64309327818</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="hydrogen">
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.0510100501</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.462</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.467544</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.473154528</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.478832382336</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.484578370924032</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.62</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.6262</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.632462</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.63878662</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.6451744862</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="chemical feedstocks">
+                <subsector name="coal">
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="gas">
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="agricultural energy use">
+                <subsector name="mobile">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.04525</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.0657025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.086359525</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.10722312025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.518</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.536216</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.554650592</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.573306399104</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.59218607589325</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="stationary">
+                    <stub-technology name="biomass">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.802</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.805208</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.808428832</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.811662547328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.814909197517312</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.898</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.903388</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.908808328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.914261177967999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.919746745035807</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0373</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0497476</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0623445712</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0750927060544</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.908</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.918896</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.929922752</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.941081825024</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.952374806924288</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.518</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.536216</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.554650592</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.573306399104</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.59218607589325</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="construction energy use">
+                <subsector name="mobile">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.04525</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.0657025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.086359525</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.10722312025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.518</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.536216</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.554650592</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.573306399104</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.59218607589325</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="stationary">
+                    <stub-technology name="biomass">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.802</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.805208</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.808428832</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.811662547328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.814909197517312</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.898</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.903388</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.908808328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.914261177967999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.919746745035807</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0373</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0497476</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0623445712</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0750927060544</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.908</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.918896</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.929922752</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.941081825024</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.952374806924288</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.518</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.536216</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.554650592</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.573306399104</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.59218607589325</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="construction feedstocks">
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="mining energy use">
+                <subsector name="mobile">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.04525</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.0657025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.086359525</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>2.10722312025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.518</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.536216</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.554650592</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.573306399104</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 wholesale dispensing">
+                                <efficiency>1.59218607589325</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="stationary">
+                    <stub-technology name="biomass">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.802</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.805208</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.808428832</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.811662547328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.814909197517312</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.898</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.903388</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.908808328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.914261177967999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.919746745035807</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0373</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0497476</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0623445712</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0750927060544</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.908</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.918896</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.929922752</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.941081825024</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.952374806924288</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.518</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.536216</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.554650592</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.573306399104</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 retail delivery">
+                                <efficiency>1.59218607589325</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="other industrial energy use">
+                <subsector name="biomass">
+                    <stub-technology name="biomass">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.802</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.805208</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.808428832</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.811662547328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.814909197517312</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.565</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.57065</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.5763565</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.582120064999999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <efficiency>0.587941265649999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="coal">
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.898</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.903388</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.908808328</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.914261177967999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.919746745035807</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.634</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.64034</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.6467434</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.653210834</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>0.659742942339999</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.025</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0373</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0497476</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0623445712</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <efficiency>1.0750927060544</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="gas">
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.908</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.918896</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.929922752</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.941081825024</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.952374806924288</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.618</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.62418</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.6304218</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.636726018</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>0.64309327818</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="hydrogen">
+                    <stub-technology name="hydrogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 industrial">
+                                <efficiency>1.0510100501</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="hydrogen cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.462</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.467544</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.473154528</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.478832382336</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 wholesale delivery">
+                                <efficiency>0.484578370924032</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.012</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.024144</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.036433728</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.048870932736</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.06145738392883</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.62</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.6262</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.632462</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.63878662</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>0.6451744862</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="other industrial feedstocks">
+                <subsector name="coal">
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="gas">
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.01</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.0201</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.030301</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.04060401</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="alumina">
+                <subsector name="biomass">
+                    <stub-technology name="biomass">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.0048929</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.004843971</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.00479553129</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.0047475759771</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.004700100217329</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.005</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.00495</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.0049005</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.004851495</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.00480298005</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.006</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.00594</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.0058806</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.005821794</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered biomass">
+                                <coefficient>0.00576357606</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="coal">
+                    <stub-technology name="coal">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.004</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00396</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0039204</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.003881196</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00384238404</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.005</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00495</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0049005</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.004851495</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00480298005</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.006</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00594</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0058806</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.005821794</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00576357606</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="gas">
+                    <stub-technology name="gas">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0130214</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.012891186</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.01276227414</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0126346513986</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.012508304884614</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.001</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.00099</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0009801</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.000970299</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.00096059601</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.001</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.00099</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0009801</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.000970299</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.00096059601</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.003</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00297</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.0029403</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.002910897</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00288178803</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.003</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00297</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.0029403</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.002910897</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00288178803</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="refined liquids cogen">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.004</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00396</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.0039204</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.003881196</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00384238404</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="aluminum">
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0544616</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.053916984</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.05337781416</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0528440360184</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.052315595658216</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="iron and steel">
+                <subsector name="BLASTFUR">
+                    <stub-technology name="Biomass-based">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0005482</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>1e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.000542718</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>9.9e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>9.9e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.00053729082</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>9.801e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>9.801e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0005319179118</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>9.70299e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>9.70299e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.000526598732682</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>9.6059601e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>9.6059601e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="BLASTFUR">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0161782</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0011843</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.6e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.18e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.016016418</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.001172457</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.584e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.1582e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.01585625382</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.00116073243</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.56816e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.136618e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0156976912818</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0011491251057</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.5524784e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.11525182e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.015540714368982</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.001137633854643</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.536953616e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.0940993018e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="BLASTFUR CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0161782</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0011843</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.6e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.18e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.016016418</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.001172457</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.584e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.1582e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.01585625382</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.00116073243</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.56816e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.136618e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0156976912818</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0011491251057</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.5524784e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.11525182e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.015540714368982</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.001137633854643</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>1.536953616e-06</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>2.0940993018e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="EAF with DRI">
+                    <stub-technology name="EAF with DRI">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0022564</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0028408</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.0003972</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0313568</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.002233836</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.002812392</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.000393228</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.031043232</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00221149764</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.00278426808</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00038929572</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.03073279968</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0021893826636</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0027564253992</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.0003854027628</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0304254716832</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.002167488836964</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.002728861145208</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.000381548735172</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.030121216966368</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="EAF with DRI CCS">
+                        <period year="2030">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0022564</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0028408</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.0003972</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0313568</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.002233836</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.002812392</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.000393228</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.031043232</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.00221149764</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.00278426808</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.00038929572</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.03073279968</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.0021893826636</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0027564253992</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.0003854027628</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.0304254716832</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="delivered coal">
+                                <coefficient>0.002167488836964</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.002728861145208</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>0.000381548735172</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="wholesale gas">
+                                <coefficient>0.030121216966368</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Hydrogen-based DRI">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0028408</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.002812392</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.00278426808</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0027564253992</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.002728861145208</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="EAF with scrap">
+                    <stub-technology name="EAF with scrap">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0033428</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>8.83e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.003309372</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>8.7417e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.00327627828</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>8.654283e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.0032435154972</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>8.56774017e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_ind">
+                                <coefficient>0.003211080342228</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                            <minicam-energy-input name="refined liquids industrial">
+                                <coefficient>8.4820627683e-05</coefficient>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

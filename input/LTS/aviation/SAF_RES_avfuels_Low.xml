@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="aviation fuels">
+                <subsector name="biomass liquids">
+					 <stub-technology name="cellulosic ethanol">
+                        <period year="2025">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 1">
+                                          <period year="2025">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 2">
+                                                <period year="2025">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels">
+                        <period year="2025">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 1">
+                                          <period year="2025">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 2">
+                                                <period year="2025">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <res-secondary-output name="SAF-credits">
+                                <output-ratio>1</output-ratio>
+                            </secondary-output>
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    
+                </subsector>
+                <subsector name="oil refining">
+                    <stub-technology name="oil refining">
+                     <period year="2025">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2030">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2035">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2040">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2045">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2050">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="coal to liquids">
+                    <stub-technology name="coal to liquids">
+                     <period year="2025">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2030">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2035">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2040">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2045">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2050">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                    </stub-technology>
+                    <stub-technology name="coal to liquids CCS level 1">
+                     <period year="2025">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2030">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2035">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2040">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2045">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2050">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                    </stub-technology>
+                    <stub-technology name="coal to liquids CCS level 2">
+                    </stub-technology>
+                </subsector>
+                <subsector name="gas to liquids">
+                    <stub-technology name="gas to liquids">
+                     <period year="2025">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.025</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2030">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.05</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2035">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.1</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2040">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.2</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2045">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.4</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                     <period year="2050">
+                    	 <minicam-energy-input name="SAF-credits">
+                        	<coefficient>0.5</coefficient>
+                     	</minicam-energy-input>
+					</period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            
+            <policy-portfolio-standard name="SAF-credits">
+                <market>USA</market>
+                <policyType>RES</policyType>
+                <constraint year="2025">1</constraint>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint year="2030">1</constraint>
+                <constraint year="2035">1</constraint>
+                <constraint year="2040">1</constraint>
+                <constraint year="2045">1</constraint>
+                <constraint year="2050">1</constraint>
+            </policy-portfolio-standard>
+        </region>
+    </world>
+</scenario>

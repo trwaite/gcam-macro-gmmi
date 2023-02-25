@@ -128,7 +128,7 @@
          <!--SustainableAviationFuels-->
 			<Value name="aviation_Fuels">../input/LTS/aviation/aviation_fuels.xml</Value>
 			<Value name="IRA">../input/LTS/aviation/SAF_IRA.xml</Value>
-			<Value name="RES">../input/LTS/aviation/SAF_RES_avfuels.xml</Value>
+			<Value name="RES">../input/LTS/aviation/SAF_RES_avfuels_Low.xml</Value>
 
 		<!--BioUpdatesFromDECARB2B-->
 			<Value name="biofuels_NREL">../input/LTS/bioenergy/biofuels_NREL.xml</Value>
@@ -148,7 +148,7 @@
 
 	         <!--BECCS Ceiling-->
 			<Value name = "BECCS_mkt">../input/LTS/bioenergy/BECCS_mkt.xml</Value>
-            <Value name = "BECCS_ceiling">../input/LTS/bioenergy/BECCS_ceiling_med_flat.xml</Value>
+            <Value name = "BECCS_ceiling">../input/LTS/bioenergy/BECCS_ceiling_low.xml</Value>
             <Value name = "BECCS_link">../input/LTS/bioenergy/BECCS_link.xml</Value>
 
 	         <!--Buildings-->		
@@ -179,7 +179,7 @@
 		
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">LTS</Value>
+		<Value name="scenarioName">LTS-LowBio</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>

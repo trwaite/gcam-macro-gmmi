@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="comm cooling">
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>3.266646</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>3.60964383</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>3.98865643215</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>4.40746535752575</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>4.87024922006595</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="comm heating">
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>0.9789171</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>0.99604814925</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.01347899186187</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.03121487421946</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.0492611345183</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="comm others">
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.0393255</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.09389008875</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.15131931840937</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.21176358262587</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.27538117071372</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="resid cooling">
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>3.1469886</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>3.477422403</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>3.842551755315</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>4.24601968962307</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>4.6918517570335</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="resid heating">
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>0.9789171</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>0.99604814925</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.01347899186187</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.03121487421946</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.0492611345183</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="resid others">
+                <subsector name="electricity">
+                    <stub-technology name="electricity">
+                        <period year="2030">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.0393255</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.09389008875</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.15131931840937</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.21176358262587</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="elect_td_bld">
+                                <efficiency>1.27538117071372</efficiency>
+                                <market-name>USA</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

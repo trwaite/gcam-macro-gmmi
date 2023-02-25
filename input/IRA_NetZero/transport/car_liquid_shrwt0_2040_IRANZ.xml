@@ -47,6 +47,15 @@
                         <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
                             <interpolation-function name="fixed"/>
                         </interpolation-rule>
+                        <period year="2020">
+                            <share-weight>0.04</share-weight>
+                        </period>
+                        <period year="2025">
+                            <share-weight>0.07</share-weight>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0.1</share-weight>
+                        </period>
                         <period year="2035">
                           <share-weight>0.2</share-weight>
                         </period>
@@ -84,6 +93,15 @@
                         <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
                             <interpolation-function name="fixed"/>
                         </interpolation-rule>
+                        <period year="2020">
+                            <share-weight>0.04</share-weight>
+                        </period>
+                        <period year="2025">
+                            <share-weight>0.07</share-weight>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0.1</share-weight>
+                        </period>
                         <period year="2035">
                           <share-weight>0.2</share-weight>
                         </period>
