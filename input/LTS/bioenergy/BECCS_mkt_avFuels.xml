@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="alumina" nocreate="1">
+                <subsector name="biomass" nocreate="1">
+                    <stub-technology name="biomass CCS" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>0.3795</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>0.3795</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>0.3795</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>0.3795</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>0.3795</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>0.3795</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>0.3795</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="H2 central production" nocreate="1">
+                <subsector name="biomass" nocreate="1">
+                    <stub-technology name="biomass to H2 CCS" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>200.022542386333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>195.005746268667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>192.595896474667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>188.484260902667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>184.749921532</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>183.311246899</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>180.148180685</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="electricity" nocreate="1">
+                <subsector name="biomass" nocreate="1">
+                    <stub-technology name="biomass (conv CCS)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>330.337941628264</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>307.316384180791</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>287.804232804233</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>276.867924528302</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>267.91817087846</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>257.685185185185</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>251.868008948546</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass (IGCC CCS)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>247.183908045977</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>230.976645435244</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>217.145708582834</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>208.4375</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>202.216167120799</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>195.298245614035</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>191.471088435374</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="elec_biomass (conv CCS)" nocreate="1">
+                <subsector name="biomass (conv CCS)" nocreate="1">
+                    <stub-technology name="biomass (conv CCS) (once through)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>330.337941628264</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>307.316384180791</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>287.804232804233</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>276.867924528302</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>267.91817087846</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>257.685185185185</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>251.868008948546</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass (conv CCS) (seawater)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>330.337941628264</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>307.316384180791</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>287.804232804233</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>276.867924528302</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>267.91817087846</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>257.685185185185</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>251.868008948546</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass (conv CCS) (recirculating)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>330.337941628264</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>307.316384180791</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>287.804232804233</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>276.867924528302</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>267.91817087846</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>257.685185185185</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>251.868008948546</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass (conv CCS) (dry cooling)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>347.724149082383</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>323.490930716622</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>302.951824004456</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>291.439920556107</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>282.019127240484</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>271.247563352827</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>265.124219945838</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="elec_biomass (IGCC CCS)" nocreate="1">
+                <subsector name="biomass (IGCC CCS)" nocreate="1">
+                    <stub-technology name="biomass (IGCC CCS) (once through)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>247.183908045977</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>230.976645435244</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>217.145708582834</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>208.4375</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>202.216167120799</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>195.298245614035</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>191.471088435374</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass (IGCC CCS) (seawater)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>247.183908045977</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>230.976645435244</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>217.145708582834</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>208.4375</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>202.216167120799</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>195.298245614035</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>191.471088435374</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass (IGCC CCS) (recirculating)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>247.183908045977</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>230.976645435244</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>217.145708582834</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>208.4375</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>202.216167120799</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>195.298245614035</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>191.471088435374</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="biomass (IGCC CCS) (dry cooling)" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>260.193587416818</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>243.133310984468</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>228.574430087194</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>219.407894736842</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>212.859123285052</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>205.577100646353</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.548514142499</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="chemical energy use" nocreate="1">
+                <subsector name="biomass" nocreate="1">
+                    <stub-technology name="biomass CCS" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>95.2321204516938</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>94.9937421777222</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>94.6384039900249</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>94.4029850746269</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>94.1687344913151</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>93.9356435643564</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>93.7037037037037</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="refining" nocreate="1">
+                <subsector name="biomass liquids" nocreate="1">
+                    <stub-technology name="cellulosic ethanol CCS level 1" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>33.5445</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>33.5445</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>33.5445</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>33.5445</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>33.5445</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>33.5445</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>33.5445</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 2" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>142.825026666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>142.825026666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>142.825026666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>142.825026666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>142.825026666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>142.825026666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>142.825026666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 1" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>39.41696</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>39.41696</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>39.41696</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>39.41696</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>39.41696</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>39.41696</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>39.41696</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 2" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>110.41228</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>110.41228</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>110.41228</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>110.41228</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>110.41228</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>110.41228</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>110.41228</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="aviation fuels" nocreate="1">
+                <subsector name="biomass liquids" nocreate="1">
+                    <stub-technology name="cellulosic ethanol CCS level 1" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>47.388</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>47.388</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>47.388</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>47.388</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>47.388</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>47.388</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>47.388</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 2" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.767573333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.767573333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.767573333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.767573333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.767573333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.767573333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>201.767573333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 1" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>97.5098666666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>97.5098666666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>97.5098666666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>97.5098666666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>97.5098666666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>97.5098666666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>97.5098666666667</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 2" nocreate="1">
+                        <period year="2020">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>273.138433333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>273.138433333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>273.138433333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>273.138433333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>273.138433333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>273.138433333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="BECCS">
+                                <emiss-coef>273.138433333333</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
