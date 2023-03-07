@@ -1,0 +1,8 @@
+# File: A232.subsector_logit.csv
+# Title: Coal CCS retrofit subsector logit exponents
+# Units: Unitless logit-exponent
+# Source: None (GCAM assumptions)
+# Column types: cci 
+# ----------
+supplysector,subsector,logit.exponent
+coal CCS retrofit,coal CCS retrofit,-9

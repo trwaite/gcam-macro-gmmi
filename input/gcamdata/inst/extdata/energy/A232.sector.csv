@@ -1,0 +1,8 @@
+# File: A232.sector.csv
+# Title: CCS retrofit passthrough sectors
+# Units: Unitless
+# Source: GCAM assumptions
+# Column types: cccci 
+# ----------
+supplysector,output.unit,input.unit,price.unit,logit.exponent
+coal CCS retrofit,EJ,EJ,1975$/GJ,-3

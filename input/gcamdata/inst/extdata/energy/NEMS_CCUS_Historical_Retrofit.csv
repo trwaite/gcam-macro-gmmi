@@ -1,0 +1,8 @@
+# File: NEMS_CCUS_Historical_Retrofit.csv
+# Title: Incorporating NEMS CCS coal retrofit characteristics
+# Units: 1975$/kW; 1975$/kW; 1975$/kW;  kW; EJ; EJ; unitless; unitless;  unitless; unitless;  unitless;
+# Source: NEMS and EIA
+# Column types: nnnnnnnnnnnn 
+# ----------
+CCS Retrofit Overnight Cost,CCS Retrofit Fixed O&M Cost,CCS Retrofit Variable O&M Cost,Summer Capacity (MW),en_in,en_in_elec,en_out,eff,eff_elec,retrofit_efficiency,en_in_fraction,en_out_fraction
+557.9743146,4.174122946,1.499960704,231001.704,16.76693633,16.75032188,5.538244583,0.330307486,0.330635114,0.240414426,0.82769804,0.833296586

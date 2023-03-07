@@ -1,0 +1,9 @@
+# File: A232.globaltech_shrwt.csv
+# Title: CCS retrofit electricity technology shareweights
+# Units: Unitless share-weights
+# Source: None (GCAM assumptions)
+# Column types: ccciiii 
+# ----------
+supplysector,subsector,technology,1971,2010,2021,2100
+coal CCS retrofit,coal CCS retrofit,existing coal,1,1,1,1
+coal CCS retrofit,coal CCS retrofit,add CCS retrofit,0,0,1,1

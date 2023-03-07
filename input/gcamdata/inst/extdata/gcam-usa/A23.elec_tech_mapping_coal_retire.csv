@@ -12,3 +12,5 @@ peak generation,coal,coal_peak_conv pul,coal_peak_conv pul
 peak generation,coal,coal_peak_conv pul_retire_2020,coal_peak_conv pul
 subpeak generation,coal,coal_subpeak_conv pul,coal_subpeak_conv pul
 subpeak generation,coal,coal_subpeak_conv pul_retire_2020,coal_subpeak_conv pul
+electricity,coal,coal (conv pul),coal (conv pul)
+electricity,coal,coal (conv pul)_retire_2020,coal (conv pul)

@@ -1,0 +1,8 @@
+# File: A232.globaltech_OMfixed.csv
+# Title: Electricity technology fixed operations and maintenance costs for CCS retrofit
+# Units: 1975$/kW/yr
+# Source: GCAM assumptions; developed from assumptions to NEMS model in support of the Annual Energy Outlook (https://www.eia.gov/outlooks/aeo/assumptions/pdf/electricity.pdf).
+# Column types: ccccinnnnnnnnnn 
+# ----------
+supplysector,subsector,technology,input.OM.fixed,capacity.factor,1971,1990,2005,2020,2035,2050,2065,2080,2095,2100
+coal CCS retrofit,coal CCS retrofit,add CCS retrofit,OM-fixed,1,12.76,12.76,12.76,12.76,12.76,12.76,12.76,12.76,12.76,12.76

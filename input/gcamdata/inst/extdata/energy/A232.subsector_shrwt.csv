@@ -1,0 +1,9 @@
+# File: A232.subsector_shrwt.csv
+# Title: CCS retrofit subsector default share-weights
+# Units: Unitless share-weights
+# Source: None (GCAM assumptions)
+# Note: These may be over-written by interpolation rules which take precedence
+# Column types: cccci 
+# ----------
+supplysector,subsector,year.fillout,year,share.weight
+coal CCS retrofit,coal CCS retrofit,start-year,,1

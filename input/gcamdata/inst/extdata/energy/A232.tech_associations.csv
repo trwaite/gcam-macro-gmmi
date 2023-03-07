@@ -1,0 +1,8 @@
+# File: A232.tech_associations.csv
+# Title: Mapping associated technologies in the power sector
+# Units: NA
+# Source: GCAM assumptions
+# Column types: cccccc 
+# ----------
+supplysector,subsector,technology,elec_supplysector,elec_subsector,elec_technology
+coal CCS retrofit,coal CCS retrofit,existing coal,electricity,coal,coal (conv pul)

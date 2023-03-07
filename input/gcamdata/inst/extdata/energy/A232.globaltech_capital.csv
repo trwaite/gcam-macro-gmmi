@@ -1,0 +1,9 @@
+# File: A232.globaltech_capital.csv
+# Title: CCS retrofit electricity technology capital costs
+# Units: 1975$/kW
+# Source: TODO
+# Column types: ccccninnnnnn 
+# ----------
+supplysector,subsector,technology,input-capital,fixed.charge.rate,capacity.factor,1971,1990,2005,2020,2050,2100
+coal CCS retrofit,coal CCS retrofit,existing coal,capital,0.15,1,0,0,0,0,0,0
+coal CCS retrofit,coal CCS retrofit,add CCS retrofit,capital,0.15,1,485.7778,485.7778,485.7778,485.7778,485.7778,485.7778

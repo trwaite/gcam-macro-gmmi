@@ -216,6 +216,7 @@ generate_level2_data_names <- function() {
 
   # Stub technologies
   level2_data_names[["StubTech"]] <- c("region", "supplysector", "subsector", "stub.technology")
+  level2_data_names[["StubTechAvail"]] <- c(level2_data_names[["StubTech"]], "initial.available.year", "final.available.year")
   level2_data_names[["StubTechYr"]] <- c(level2_data_names[["StubTech"]], "year")
   level2_data_names[["StubTechInterp"]] <- c(level2_data_names[["StubTech"]], "apply.to", "from.year", "to.year", "interpolation.function")
   level2_data_names[["StubTechShrwt"]] <- c("region", "supplysector", "subsector", "stub.technology", "year", "share.weight")
