@@ -4,6 +4,15 @@
 
             <supplysector name="electricity">
                 <subsector name="gas">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year="2025">0</share-weight>
+                    <share-weight year="2030">0</share-weight>
+                    <share-weight year="2035">0</share-weight>
+                    <share-weight year="2040">0.1</share-weight>
+                    <share-weight year="2045">0.1</share-weight>
+                    <share-weight year="2050">0.1</share-weight>
 				<stub-technology name="gas (CC)">
                     <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
                         <interpolation-function name="fixed"/>
@@ -22,13 +31,13 @@
                      <share-weight>0</share-weight>
                   </period>
                   <period year="2040">
-                     <share-weight>0</share-weight>
+                     <share-weight>1</share-weight>
                   </period>
                   <period year="2045">
-                     <share-weight>0</share-weight>
+                     <share-weight>1</share-weight>
                   </period>
                   <period year="2050">
-                     <share-weight>0</share-weight>
+                     <share-weight>1</share-weight>
                   </period>
 				</stub-technology>
 
@@ -49,13 +58,13 @@
                      <share-weight>0</share-weight>
                   </period>
                   <period year="2040">
-                     <share-weight>0</share-weight>
+                     <share-weight>6</share-weight>
                   </period>
                   <period year="2045">
-                     <share-weight>0</share-weight>
+                     <share-weight>6</share-weight>
                   </period>
                   <period year="2050">
-                     <share-weight>0</share-weight>
+                     <share-weight>6</share-weight>
                   </period>
 				</stub-technology>
                 </subsector>

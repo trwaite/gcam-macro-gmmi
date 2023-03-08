@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="elec_coal (conv pul CCS)">
+                <subsector name="coal (conv pul CCS)">
+                    <stub-technology name="coal (conv pul CCS) (recirculating)">
+                        <period year="2030">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.566</fixedOutput>
+                        </period>
+                        <period year="2035">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.756</fixedOutput>
+                        </period>
+                        <period year="2040">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.826</fixedOutput>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+
+            <supplysector name="elec_gas (CC CCS)">
+                <subsector name="gas (CC CCS)">
+                    <stub-technology name="gas (CC CCS) (recirculating)">
+                        <period year="2025">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.162</fixedOutput>
+                        </period>
+                        <period year="2030">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.564</fixedOutput>
+                        </period>
+                        <period year="2035">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.821</fixedOutput>
+                        </period>
+                        <period year="2040">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>0.971</fixedOutput>
+                        </period>
+                        <period year="2045">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>1.130</fixedOutput>
+                        </period>
+                        <period year="2050">
+                            <lifetime>-1</lifetime>
+                            <fixedOutput>1.430</fixedOutput>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+
+   <supplysector name="electricity">
+                <subsector name="gas">
+				<stub-technology name="gas (CC CCS)">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2025">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2030">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2035">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2040">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2045">
+                     <share-weight>0</share-weight>
+                  </period>
+                  <period year="2050">
+                     <share-weight>0</share-weight>
+                  </period>
+				</stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
