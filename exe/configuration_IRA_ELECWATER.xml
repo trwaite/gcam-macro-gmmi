@@ -114,6 +114,7 @@
 
          <!--NoNewNuclearCoal-->
          <Value name = "nonewNucCoal">../input/fecm/US_no.new.coal.nuclear.xml</Value>
+ 		 <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
          <!--NoNewGas-->
          <Value name = "nonewgas">../input/IRA/GasElec_Shrwt_zero2025_restart2040.xml</Value>
          <!--CoalRetirement-->

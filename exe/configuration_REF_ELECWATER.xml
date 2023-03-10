@@ -22,8 +22,8 @@
 		<Value name = "resources">../input/gcamdata/xml/resources.xml</Value>
 		<Value name = "energy_supply">../input/gcamdata/xml/en_supply.xml</Value>
 		<Value name = "energy_transformation">../input/gcamdata/xml/en_transformation.xml</Value>
-		<Value name = "electricity">../input/gcamdata/xml/electricity.xml</Value>
-		<!--Value name = "elec_water_base">../input/gcamdata/xml/electricity_water.xml</Value-->
+		<!--Value name = "electricity">../input/gcamdata/xml/electricity.xml</Value-->
+		<Value name = "elec_water_base">../input/gcamdata/xml/electricity_water.xml</Value>
 		<Value name = "heat">../input/gcamdata/xml/heat.xml</Value>
 		<Value name = "hydrogen">../input/gcamdata/xml/hydrogen.xml</Value>
 		<Value name = "energy_distribution">../input/gcamdata/xml/en_distribution.xml</Value>
@@ -75,7 +75,7 @@
 		<Value name = "efw_mfg">../input/gcamdata/xml/EFW_manufacturing.xml</Value>
 		<Value name = "efw_muni">../input/gcamdata/xml/EFW_municipal.xml</Value>
 		<Value name = "ag_water">../input/gcamdata/xml/ag_water_input_IRR_MGMT.xml</Value>
-		<!--Value name = "elec_water_coef">../input/gcamdata/xml/electricity_water_coefs.xml</Value-->
+		<Value name = "elec_water_coef">../input/gcamdata/xml/electricity_water_coefs.xml</Value>
 		<Value name = "ind_water">../input/gcamdata/xml/water_demand_industry.xml</Value>
 		<Value name = "an_water">../input/gcamdata/xml/water_demand_livestock.xml</Value>
 		<Value name = "municipal_water">../input/gcamdata/xml/water_demand_municipal.xml</Value>
@@ -103,81 +103,22 @@
         <Value name = "wind_update">../input/gcamdata/xml/onshore_wind.xml</Value>
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 
-         <!--EMF37 add ons-->
+  		<!--NoNewNuclearCoal-->
          <Value name = "us_current_policy">../input/fecm/US_no.new.coal.nuclear.xml</Value>
-         <Value name = "eu_current_policy">../input/fecm/EU15_no.new.coal.nuclear.xml</Value>
-         <Value name = "no_new_nuclear_japan_SK">../input/fecm/JAP_KOR_nuclear_shrwt.xml</Value>
          <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
-
-         <!--Prices-->
-         <Value name = "OG_price">../input/fecm/OG.cost_ref.xml</Value>
-         <Value name = "elec_price">../input/fecm/StubTechCost_elecownuse.xml</Value>
-
-         <!--Elec adjustment-->
-         <Value name = "elec_SW">../input/fecm/elec_SW_EMF.xml</Value>
-         <Value name = "elec_gas">../input/fecm/elec_gas_ceiling_2020.xml</Value>
-
-         <!--Small Carbon Price-->
-         <Value name = "small_c_tax">../input/IRA/small_carbon_tax.xml</Value>
 
          <!--DAC-->
          <Value name = "dac">../input/gcamdata/xml/dac_ssp2.xml</Value>
 
-		<!--LUC_tax-->
-         <Value name = "LUC">../input/IRA/LUC/LUC_carbon_tax_IRA.xml</Value>
-
-         <!--NoNewCoal-->
-         <Value name = "nonewcoal">../input/IRA/coal_shwt_0.xml</Value>
-         <!--NoNewGas-->
-         <Value name = "nonewgas">../input/IRA/GasElec_Shrwt_nearzero2025.xml</Value>
-
          <!--CoalRetirement-->
-         <Value name = "coal2015">../input/IRA/coal_USA2015_exoshutdown_minusCCS.xml</Value>
+         <Value name = "coal2015">../input/IRA/elec_water/coal_USA2015_exoshutdown.xml</Value>
 
-         <!--CoalGasCCS-->
-         <Value name = "coalgasCCS">../input/IRA/Coal_Gas_CCS_fixed.xml</Value>
+		<!--LUC_tax-->
+         <Value name = "LUC">../input/IRA/LUC/LUC_carbon_tax_IRA_2005const.xml</Value>
 
-         <!--CAFE-->
-         <Value name = "ldvCAFE">../input/CAFE/CAFE_LDV_CurPol_GCAM-global.xml</Value>
-         <Value name = "freightCAFE">../input/CAFE/freight_CAFE_2022_CM_GCAM-global.xml</Value>
-         <Value name = "hybridSHWT">../input/CAFE/Hybrid_shrwt_2_GCAM-global.xml</Value>
-
-         <!--IRA Provisions-->
-         <!--Elec-->
-         <Value name = "PTC">../input/IRA/PTC_IRA.xml</Value>
-         <Value name = "ITC">../input/IRA/ITC_IRA.xml</Value>
-         <Value name = "Nuclear2015">../input/IRA/IRA_nuclear_2015_USA.xml</Value>
-         <Value name = "NuclearFixed">../input/IRA/IRA_nuclear_fixed_USA.xml</Value>
-
-         <!--Transport-->
-         <Value name = "EV-tax-credit">../input/IRA/IRA_30D_EV_tax-credits_medium_USA.xml</Value>
-         <Value name = "45W_Truck">../input/IRA/IRA_45W_truck_tax-credits_USA.xml</Value>
-         <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA.xml</Value>
-         <Value name = "EV_credit_state">../input/IRA/EV_credit_state.xml</Value>
-         <Value name = "EV_sales_state">../input/IRA/USA_state_BEV_LDVHDV_output.xml</Value>
-
-         <!--Buildings-->
-         <Value name = "Rooftop_PV">../input/IRA/rooftopPV_building_ITC_13302.xml</Value>
-         <!--Value name = "EE_comm_bld">../input/emf-addons/IRA/GlobalTechCost_bld_gcamusa_comm_credit.xml</Value-->
-         <!--Value name = "HE_elec_home_rebate">../input/emf-addons/IRA/GlobalTechCost_bld_gcamusa_elec_subsidy.xml</Value-->
-         <Value name = "45L_shell_eff">../input/IRA/building_eff_improvement_IRA_13304_USA.xml</Value>
-
-         <!--Industry-->
-         <Value name = "hydrogen-subsidy">../input/IRA/H2_IRA_subsidy_mid.xml</Value>
-         <Value name = "45Q">../input/IRA/45Q_mid.xml</Value>
-         <Value name = "biofuels">../input/IRA/IRA_biofuels_GCAM.xml</Value>
-         <!--Value name = "IRA_loan_guarantee">../input/emf-addons/IRA/IRA_loan_guarantee.xml</Value-->
-
-         <!--nonCO2-->
-         <!--Value name = "Aglu_Emissions">../input/emf-addons/IRA/all_aglu_emissions_IRR_MGMT_MAC_US_Livestock_IRA.xml</Value-->
-         <Value name = "ag_methane">../input/IRA/US_livestock_CH4_MAC.xml</Value>
-         <Value name = "ag_methane">../input/IRA/US_livestock_CH4_tax.xml</Value>
-         <Value name = "CH4_ERP">../input/IRA/US_resource_CH4_MAC_med.xml</Value>
-         <Value name = "CH4_ERP_Tax">../input/IRA/US_resource_CH4_tax.xml</Value>
-		
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">IRA</Value>
+		<Value name="scenarioName">Ref_ElecWater</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
