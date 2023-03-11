@@ -112,6 +112,10 @@
 		<!--LUC_tax-->
          <Value name = "LUC">../input/IRA/LUC/LUC_carbon_tax_IRA_2005const.xml</Value>
 
+  		<!--HistoricalGasElec-->
+         <Value name = "gas2020">../input/fecm/elec_gas_ceiling_2020.xml</Value>
+  		<!--ElecSWAdj-->
+         <Value name = "elecSW">../input/fecm/elec_SW_EMF.xml</Value>
          <!--NoNewNuclearCoal-->
          <Value name = "nonewNucCoal">../input/fecm/US_no.new.coal.nuclear.xml</Value>
  		 <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
