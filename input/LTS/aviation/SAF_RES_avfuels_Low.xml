@@ -41,7 +41,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
                         </period>
                         <period year="2050">
@@ -49,7 +49,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
                         </period>
                     </stub-technology>
@@ -91,7 +91,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
                         </period>
                         <period year="2050">
@@ -99,7 +99,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
                         </period>
                     </stub-technology>
@@ -141,7 +141,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
                         </period>
                         <period year="2050">
@@ -149,7 +149,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
                         </period>
                     </stub-technology>
@@ -191,7 +191,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
                         </period>
                         <period year="2050">
@@ -199,7 +199,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
                         </period>
                     </stub-technology>
@@ -241,7 +241,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
                         </period>
                         <period year="2050">
@@ -249,7 +249,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
                         </period>
                     </stub-technology>
@@ -291,7 +291,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
                         </period>
                         <period year="2050">
@@ -299,7 +299,7 @@
                                 <output-ratio>1</output-ratio>
                             </secondary-output>
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
                         </period>
                     </stub-technology>
@@ -329,12 +329,12 @@
 					</period>
                      <period year="2045">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
 					</period>
                      <period year="2050">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
 					</period>
                     </stub-technology>
@@ -363,12 +363,12 @@
 					</period>
                      <period year="2045">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
 					</period>
                      <period year="2050">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
 					</period>
                     </stub-technology>
@@ -395,12 +395,12 @@
 					</period>
                      <period year="2045">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
 					</period>
                      <period year="2050">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
 					</period>
                     </stub-technology>
@@ -431,12 +431,12 @@
 					</period>
                      <period year="2045">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.4</coefficient>
+                        	<coefficient>0.45</coefficient>
                      	</minicam-energy-input>
 					</period>
                      <period year="2050">
                     	 <minicam-energy-input name="SAF-credits">
-                        	<coefficient>0.5</coefficient>
+                        	<coefficient>0.7</coefficient>
                      	</minicam-energy-input>
 					</period>
                     </stub-technology>

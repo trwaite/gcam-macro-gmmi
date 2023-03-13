@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name = "USA">
+            <supplysector name = "electricity">
+                <subsector name = "geothermal">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year = "2020">0.037</share-weight>
+                    <share-weight year = "2025">0.037</share-weight>
+                    <share-weight year = "2030">0.037</share-weight>
+                    <share-weight year = "2035">0.037</share-weight>
+                    <share-weight year = "2040">0.037</share-weight>
+                    <share-weight year = "2045">0.037</share-weight>
+                    <share-weight year = "2050">0.037</share-weight>
+                </subsector>
+                <subsector name = "solar">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year = "2020">0.4</share-weight>
+                    <share-weight year = "2025">0.8</share-weight>
+                    <share-weight year = "2030">1</share-weight>
+                    <share-weight year = "2035">1</share-weight>
+                    <share-weight year = "2040">1</share-weight>
+                    <share-weight year = "2045">1</share-weight>
+                    <share-weight year = "2050">1</share-weight>
+                </subsector>
+                <subsector name = "wind">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year = "2020">0.4</share-weight>
+                    <share-weight year = "2025">0.8</share-weight>
+                    <share-weight year = "2030">1</share-weight>
+                    <share-weight year = "2035">1</share-weight>
+                    <share-weight year = "2040">1</share-weight>
+                    <share-weight year = "2045">1</share-weight>
+                    <share-weight year = "2050">1</share-weight>
+                </subsector>
+                <subsector name = "refined liquids">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year = "2020">0</share-weight>
+                    <share-weight year = "2025">0</share-weight>
+                    <share-weight year = "2030">0</share-weight>
+                    <share-weight year = "2035">0</share-weight>
+                    <share-weight year = "2040">0</share-weight>
+                    <share-weight year = "2045">0</share-weight>
+                    <share-weight year = "2050">0</share-weight>
+                </subsector>
+                <subsector name = "gas">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year = "2020">1</share-weight>
+                    <share-weight year = "2025">0.6</share-weight>
+                    <share-weight year = "2030">0.3</share-weight>
+                    <share-weight year = "2035">0.3</share-weight>
+                    <share-weight year = "2040">0.3</share-weight>
+                    <share-weight year = "2045">0.3</share-weight>
+                    <share-weight year = "2050">0.3</share-weight>
+                </subsector>
+                <subsector name = "coal">
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year = "2020">0</share-weight>
+                    <share-weight year = "2025">0.3</share-weight>
+                    <share-weight year = "2030">0.3</share-weight>
+                    <share-weight year = "2035">0.3</share-weight>
+                    <share-weight year = "2040">0.3</share-weight>
+                    <share-weight year = "2045">0.3</share-weight>
+                    <share-weight year = "2050">0.3</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
