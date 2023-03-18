@@ -15,6 +15,7 @@ LDV_4W,electricity,AC,ES
 LDV_4W,gas,AC,MG
 LDV_4W,hydrogen,AC,MG
 LDV_4W,refined liquids,AC,MG
+LDV_4W,refined liquids (ethanol),AC,EM
 Rail,coal,AC,DF
 Rail,electricity,AC,ES
 Rail,refined liquids,AC,DF

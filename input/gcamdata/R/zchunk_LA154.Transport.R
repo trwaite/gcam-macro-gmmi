@@ -110,6 +110,14 @@ module_gcamusa_LA154.Transport <- function(command, ...) {
         select(state, EIA_fuel, EIA_sector, sector, fuel, year, value_state = value) ->
         EIA_transportation_state
 
+      # Add ethanol to the motor gasoline category
+      EIA_transportation_state %>%
+        mutate(EIA_fuel = if_else(EIA_fuel=="EM","MG",EIA_fuel),
+               fuel = if_else(fuel=="refined liquids (ethanol)","refined liquids",fuel)) %>%
+        group_by(state, EIA_fuel, EIA_sector, sector, fuel, year) %>% # Dropping state
+        summarise(value_state = sum(value_state)) %>%
+        ungroup() ->EIA_transportation_state
+
       # To calculate the state share, we need to calculate the national amount
       EIA_transportation_state %>%
         group_by(EIA_fuel, EIA_sector, sector, fuel, year) %>% # Dropping state
