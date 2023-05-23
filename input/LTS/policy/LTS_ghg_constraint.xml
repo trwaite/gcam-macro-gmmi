@@ -10,17 +10,17 @@
                 <constraint year="2035">3488</constraint>
                 <constraint year="2040">2592</constraint>
                 <constraint year="2045">1696</constraint>
-                <constraint year="2050">800</constraint>
-                <constraint year="2055">750</constraint>
-                <constraint year="2060">750</constraint>
-                <constraint year="2065">750</constraint>
-                <constraint year="2070">750</constraint>
-                <constraint year="2075">750</constraint>
-                <constraint year="2080">750</constraint>
-                <constraint year="2085">750</constraint>
-                <constraint year="2090">750</constraint>
-                <constraint year="2095">750</constraint>
-                <constraint year="2100">750</constraint>
+                <constraint year="2050">1000</constraint>
+                <constraint year="2055">1000</constraint>
+                <constraint year="2060">1000</constraint>
+                <constraint year="2065">1000</constraint>
+                <constraint year="2070">1000</constraint>
+                <constraint year="2075">1000</constraint>
+                <constraint year="2080">1000</constraint>
+                <constraint year="2085">1000</constraint>
+                <constraint year="2090">1000</constraint>
+                <constraint year="2095">1000</constraint>
+                <constraint year="2100">1000</constraint>
             </policy-portfolio-standard>
         </region>
         <region name="Africa_Eastern">

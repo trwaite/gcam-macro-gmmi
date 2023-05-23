@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <policy-portfolio-standard name="GHG">
+                <policyType>tax</policyType>
+                <market>USA</market>
+                                <min-price fillout="1" year="2025">1.0</min-price>
+                <constraint year="2025">6000</constraint>
+                <constraint year="2030">5000</constraint>
+                <constraint year="2035">3928</constraint>
+                <constraint year="2040">2885</constraint>
+                <constraint year="2045">1843</constraint>
+                <constraint year="2050">1000</constraint>
+                <constraint year="2055">900</constraint>
+                <constraint year="2060">800</constraint>
+                <constraint year="2065">700</constraint>
+                <constraint year="2070">600</constraint>
+                <constraint year="2075">500</constraint>
+                <constraint year="2080">400</constraint>
+                <constraint year="2085">300</constraint>
+                <constraint year="2090">200</constraint>
+                <constraint year="2095">100</constraint>
+                <constraint year="2100">0</constraint>
+            </policy-portfolio-standard>
+        </region>
+
+    </world>
+</scenario>

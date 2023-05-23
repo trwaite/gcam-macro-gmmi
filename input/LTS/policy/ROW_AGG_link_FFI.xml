@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="Africa_Eastern">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Africa_Northern">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Africa_Southern">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Africa_Western">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Argentina">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Argentina</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Argentina</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Australia_NZ">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Australia_NZ</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Australia_NZ</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Brazil">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Canada">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Canada</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Canada</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Central America and Caribbean">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Central Asia">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="China">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>China</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>China</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Colombia">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="EU-12">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>EU</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>EU</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="EU-15">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>EU</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>EU</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Europe_Eastern">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Europe_Non_EU">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="European Free Trade Association">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="India">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>India</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>India</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Indonesia">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Japan">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Mexico">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Mexico</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Mexico</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Middle East">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Middle East</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Middle East</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Pakistan">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>CenAsiaEastEur</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Russia">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Russia</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>Russia</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="South Africa">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>South Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>South Africa</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="South America_Northern">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="South America_Southern">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>LCA</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="South Asia">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="South Korea">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>South Korea</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>South Korea</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Southeast Asia">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>ROW</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+        <region name="Taiwan">
+            <linked-ghg-policy name="CO2">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>China</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">1</price-adjust>
+                <demand-adjust fillout="1" year="2025">3.666666667</demand-adjust>
+            </linked-ghg-policy>
+            <linked-ghg-policy name="CO2_LUC">
+                <price-adjust fillout="1" year="1975">0</price-adjust>
+                <demand-adjust fillout="1" year="1975">0</demand-adjust>
+                <market>China</market>
+                <linked-policy>GHG</linked-policy>
+                <price-unit>1990$/tC</price-unit>
+                <output-unit>MTC</output-unit>
+                <price-adjust fillout="1" year="2025">0.1</price-adjust>
+                <demand-adjust fillout="1" year="2025">0</demand-adjust>
+                <price-adjust fillout="1" year="2030">0.16</price-adjust>
+                <demand-adjust fillout="1" year="2030">0</demand-adjust>
+                <price-adjust fillout="1" year="2035">0.22</price-adjust>
+                <demand-adjust fillout="1" year="2035">0</demand-adjust>
+                <price-adjust fillout="1" year="2040">0.28</price-adjust>
+                <demand-adjust fillout="1" year="2040">0</demand-adjust>
+                <price-adjust fillout="1" year="2045">0.34</price-adjust>
+                <demand-adjust fillout="1" year="2045">0</demand-adjust>
+                <price-adjust fillout="1" year="2050">0.4</price-adjust>
+                <demand-adjust fillout="1" year="2050">0</demand-adjust>
+                <price-adjust fillout="1" year="2055">0.46</price-adjust>
+                <demand-adjust fillout="1" year="2055">0</demand-adjust>
+                <price-adjust fillout="1" year="2060">0.52</price-adjust>
+                <demand-adjust fillout="1" year="2060">0</demand-adjust>
+                <price-adjust fillout="1" year="2065">0.58</price-adjust>
+                <demand-adjust fillout="1" year="2065">0</demand-adjust>
+                <price-adjust fillout="1" year="2070">0.64</price-adjust>
+                <demand-adjust fillout="1" year="2070">0</demand-adjust>
+                <price-adjust fillout="1" year="2075">0.7</price-adjust>
+                <demand-adjust fillout="1" year="2075">0</demand-adjust>
+                <price-adjust fillout="1" year="2080">0.76</price-adjust>
+                <demand-adjust fillout="1" year="2080">0</demand-adjust>
+                <price-adjust fillout="1" year="2085">0.82</price-adjust>
+                <demand-adjust fillout="1" year="2085">0</demand-adjust>
+                <price-adjust fillout="1" year="2090">0.88</price-adjust>
+                <demand-adjust fillout="1" year="2090">0</demand-adjust>
+                <price-adjust fillout="1" year="2095">0.94</price-adjust>
+                <demand-adjust fillout="1" year="2095">0</demand-adjust>
+                <price-adjust fillout="1" year="2100">1</price-adjust>
+                <demand-adjust fillout="1" year="2100">0</demand-adjust>
+            </linked-ghg-policy>
+        </region>
+    </world>
+</scenario>

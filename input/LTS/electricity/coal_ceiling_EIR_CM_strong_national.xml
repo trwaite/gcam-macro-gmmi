@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <policy-portfolio-standard name="coal-elec-constraint">
+                <market>USA</market>
+                <policyType>tax</policyType>
+                <constraint year="2025">1.918</constraint>
+                <constraint year="2030">0.788</constraint>
+                <constraint year="2035">0.788</constraint>
+                <constraint year="2040">0.788</constraint>
+                <constraint year="2045">0.788</constraint>
+                <constraint year="2050">0.788</constraint>
+            </policy-portfolio-standard>
+        </region>
+    </world>
+</scenario>

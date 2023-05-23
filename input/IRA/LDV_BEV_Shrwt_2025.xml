@@ -1,0 +1,69 @@
+<scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="trn_pass_road_LDV_4W">
+                <tranSubsector name="Car">
+                    <stub-technology name="BEV">
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+
+                        <period year="2025">
+                            <share-weight>0.15</share-weight>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0.75</share-weight>
+                        </period>
+  						<period year="2035">
+                            <share-weight>1</share-weight>
+                        </period>
+                    
+                    </stub-technology>
+                </tranSubsector>
+   </supplysector>
+
+ <supplysector name="trn_pass_road_LDV_4W">
+                <tranSubsector name="Large Car and Truck">
+                    <stub-technology name="BEV">
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+
+                        <period year="2025">
+                            <share-weight>0.15</share-weight>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0.75</share-weight>
+                        </period>
+  						<period year="2035">
+                            <share-weight>1</share-weight>
+                        </period>
+                    
+                    </stub-technology>
+                </tranSubsector>
+   </supplysector>
+
+<supplysector name="trn_pass_road_LDV">
+                <tranSubsector name="2W and 3W">
+                    <stub-technology name="BEV">
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+
+                        <period year="2025">
+                            <share-weight>0.15</share-weight>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0.75</share-weight>
+                        </period>
+  						<period year="2035">
+                            <share-weight>1</share-weight>
+                        </period>
+                    
+                    </stub-technology>
+                </tranSubsector>
+   </supplysector>
+
+   </region>
+    </world>
+</scenario>

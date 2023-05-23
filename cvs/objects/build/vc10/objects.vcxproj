@@ -384,7 +384,7 @@
     </ClCompile>
     <Link>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\..\..\..\libs\java\lib;..\..\..\..\libs\boost-lib\stage\lib;..\..\..\..\libs\tbb\lib\intel64\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\libs\boost-lib\bin.v2\libs\filesystem\build\msvc-14.2\release\address-model-64\link-static\threading-multi;..\..\..\..\libs\java\lib;..\..\..\..\libs\boost-lib\stage\lib;..\..\..\..\libs\tbb\lib\intel64\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

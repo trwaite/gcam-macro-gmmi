@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="elec_coal (conv pul)" nocreate="1">
+                <subsector name="coal (conv pul)" nocreate="1">
+                    <stub-technology name="coal (conv pul) (dry cooling)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal (conv pul) (once through)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal (conv pul) (recirculating)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal (conv pul) (seawater)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal (conv pul) (cooling pond)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="elec_coal (IGCC)" nocreate="1">
+                <subsector name="coal (IGCC)" nocreate="1">
+                    <stub-technology name="coal (IGCC) (dry cooling)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal (IGCC) (once through)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal (IGCC) (recirculating)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="coal (IGCC) (seawater)" nocreate="1">
+                        <period year="2010">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2015">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2020">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2025">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2030">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2035">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2040">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2045">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                        <period year="2050">
+                            <input-tax name="coal_ceiling_EIR"/>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <policy-portfolio-standard name="coal_ceiling_EIR">
+                <market>coal_ceiling_EIR_mkt</market>
+                <policyType>tax</policyType>
+                <constraint year="2025">1.918</constraint>
+                <constraint year="2030">0.788</constraint>
+                <constraint year="2035">0.788</constraint>
+                <constraint year="2040">0.788</constraint>
+                <constraint year="2045">0.788</constraint>
+                <constraint year="2050">0.788</constraint>
+            </policy-portfolio-standard>
+        </region>
+    </world>
+</scenario>
