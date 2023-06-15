@@ -216,7 +216,7 @@
 				<Value name="ghg_link">../input/IRA/US_emissions/IRA_US_ghg_link.xml</Value-->
 
 <!--Global Emissions constraint  - ROW NDCs-->  
-			<Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_grossGHG_noNetZero.xml</Value>
+			<Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_grossGHG_noNetZero_V2.xml</Value> 
 				<Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_link_grossGHG_noNetZero.xml</Value>
 
 		

@@ -158,7 +158,7 @@
 			<Value name="transport_covid">../input/LTS/covid/agg_transport_aeei_USA_covid_adv_to2025.xml</Value>
 
 <!--Global Emissions constraint  - ROW NDCs-->  
-			<!--Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_grossGHG_noNetZero.xml</Value>
+				<!--Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_grossGHG_noNetZero_V2.xml</Value> 
 				<Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_link_grossGHG_noNetZero.xml</Value-->
 
 		
