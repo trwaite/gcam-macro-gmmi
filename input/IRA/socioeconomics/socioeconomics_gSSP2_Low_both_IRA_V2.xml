@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <demographics>
+                <populationMiniCAM year="1975">
+                    <totalPop>222013</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="1990">
+                    <totalPop>255627</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2005">
+                    <totalPop>298733</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2010">
+                    <totalPop>312697</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2015">
+                    <totalPop>324365</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2020">
+                    <totalPop>337150</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2025">
+                    <totalPop>336492</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2030">
+                    <totalPop>342433</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2035">
+                    <totalPop>347603</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2040">
+                    <totalPop>351274</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2045">
+                    <totalPop>353825</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2050">
+                    <totalPop>355768</totalPop>
+                </populationMiniCAM>
+            </demographics>
+            <GDP>
+                <baseGDP>3619364</baseGDP>
+                <laborforce fillout="1" year="1975">0.5</laborforce>
+                <laborproductivity year="1990">0.02482</laborproductivity>
+                <laborproductivity year="2005">0.02076</laborproductivity>
+                <laborproductivity year="2010">-0.00171</laborproductivity>
+                <laborproductivity year="2015">0.01423</laborproductivity>
+                <laborproductivity year="2020">0.0065728</laborproductivity>
+                <laborproductivity year="2025">0.0079943</laborproductivity>
+                <laborproductivity year="2030">0.0105314</laborproductivity>
+                <laborproductivity year="2035">0.0111048</laborproductivity>
+                <laborproductivity year="2040">0.0141567</laborproductivity>
+                <laborproductivity year="2045">0.0162000</laborproductivity>
+                <laborproductivity year="2050">0.0176049</laborproductivity>
+                <PPPConvert constRatio="1">0.97414</PPPConvert>
+            </GDP>
+        </region>
+    </world>
+</scenario>

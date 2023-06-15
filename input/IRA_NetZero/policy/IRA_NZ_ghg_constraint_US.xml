@@ -7,10 +7,10 @@
                 <market>USA</market>
                                 <min-price fillout="1" year="2025">1.0</min-price>
                 <constraint year="2025">6000</constraint>
-                <constraint year="2030">5000</constraint>
-                <constraint year="2035">3928</constraint>
-                <constraint year="2040">2885</constraint>
-                <constraint year="2045">1843</constraint>
+                <constraint year="2030">6000</constraint>
+                <constraint year="2035">4750</constraint>
+                <constraint year="2040">3500</constraint>
+                <constraint year="2045">2250</constraint>
                 <constraint year="2050">1000</constraint>
                 <constraint year="2055">900</constraint>
                 <constraint year="2060">800</constraint>

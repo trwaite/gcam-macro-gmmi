@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="aviation fuels">
+                <subsector name="biomass liquids">
+                    <stub-technology name="FT biofuels">
+                        <period year="1975">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 1">
+                        <period year="1975">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 2">
+                        <period year="1975">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+ 					<stub-technology name="cellulosic ethanol">
+                        <period year="1975">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-2.3258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 1">
+                        <period year="1975">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 2">
+                        <period year="1975">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>0</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-non-energy-input name="SAF credit">
+                                <input-cost>-3.2561</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

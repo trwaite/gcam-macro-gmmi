@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/AllRuns_basexdb</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -138,6 +138,7 @@
          <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA.xml</Value>
          <Value name = "EV_credit_state">../input/IRA/EV_credit_state.xml</Value>
          <Value name = "EV_sales_state">../input/IRA/USA_state_BEV_LDVHDV_output.xml</Value>
+		
 
          <!--Buildings-->
          <Value name = "Rooftop_PV">../input/IRA/rooftopPV_building_ITC_13302.xml</Value>
@@ -194,7 +195,7 @@
 		<!--------------------------------------------------------------------------------------------------------------------------------->
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">IRA-NetZero</Value>
+		<Value name="scenarioName">IRA-NetZero_original</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>

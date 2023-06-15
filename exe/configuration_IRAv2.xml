@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/AllRuns2050_basexdb</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/IRA_Runs2050_basexdb</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -21,6 +21,7 @@
 		<Value name = "socioeconomics">../input/gcamdata/xml/socioeconomics_gSSP2.xml</Value>
 		<Value name = "resources">../input/gcamdata/xml/resources.xml</Value>
 		<Value name = "energy_supply">../input/gcamdata/xml/en_supply.xml</Value>
+
 		<Value name = "energy_transformation">../input/gcamdata/xml/en_transformation.xml</Value>
 		<!--Value name = "electricity">../input/gcamdata/xml/electricity.xml</Value-->
 		<Value name = "elec_water_base">../input/gcamdata/xml/electricity_water.xml</Value>
@@ -110,6 +111,15 @@
          <Value name = "dac">../input/gcamdata/xml/dac_ssp2.xml</Value>
 
 
+	
+		<!--  UPDATED SOCIOECONOMICS-->
+
+    		<Value name = "baseline_growth">../input/IRA/socioeconomics/socioeconomics_gSSP2_Ref_both_IRA.xml</Value>
+
+		<!--  UPDATED OIL AND GAS PRICES-->
+
+    		<!--Value name = "baseline_oil_prices">../input/IRA/energy_prices/oil_price_REF.xml</Value-->
+			<Value name = "baseline_gas_prices">../input/IRA/energy_prices/gas_price_REF.xml</Value>
 
   			<!--HistoricalGasElec-->
          <Value name = "gas2020">../input/fecm/elec_gas_ceiling_2020.xml</Value>
@@ -118,8 +128,10 @@
          <!--NoNewNuclearCoal-->
          <Value name = "nonewNucCoal">../input/fecm/US_no.new.coal.nuclear.xml</Value>
  		 <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
-         <!--NoNewGas-->
+
+         <!--NoNewGas 2025 to 2040-->
          <Value name = "nonewgas">../input/IRA/GasElec_Shrwt_zero2025_restart2040.xml</Value>
+
          <!--CoalRetirement-->
          <Value name = "coal2015">../input/IRA/elec_water/coal_USA2015_exoshutdown_minusCCS.xml</Value>
          <!--CoalGasCCS-->
@@ -131,9 +143,10 @@
          <Value name = "hybridSHWT">../input/CAFE/Hybrid_shrwt_2_GCAM-global.xml</Value>
 
 
- <!--LDV BEV shareweights adjustment in 2025, 2030-->
-         <Value name = "ldvBEV">../input/IRA/LDV_BEV_Shrwt_2025.xml</Value>
-        
+ <!--LDV BEV, FECV shareweights adjustment in 2025, 2030-->
+         <Value name = "ldvBEV_FCEV">../input/IRA/LDV_BEV_FCEV_Shrwt_2025_2030.xml</Value>
+
+
         
          <!--IRA Provisions-->
          <!--Elec-->
@@ -144,9 +157,9 @@
 		<Value name = "coal_ceiling">../input/IRA/ELEC_coal_constraint_EIR.xml</Value> <!-- Energy Infrastructure Reinvestment provision  -->
 
          <!--Transport-->
-         <Value name = "EV-tax-credit">../input/IRA/IRA_30D_EV_tax-credits_medium_USA.xml</Value>
-         <Value name = "45W_Truck">../input/IRA/IRA_45W_truck_tax-credits_USA.xml</Value>
-         <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA.xml</Value>
+         <Value name = "EV-tax-credit">../input/IRA/IRA_30D_EV_tax-credits_medium_USA_40pct2035.xml</Value>
+         <Value name = "45W_Truck">../input/IRA/IRA_45W_truck_tax-credits_USA_40pct2035.xml</Value>
+         <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA_40pct2035.xml</Value>
          <Value name = "EV_credit_state">../input/IRA/EV_credit_state.xml</Value>
          <Value name = "EV_sales_state">../input/IRA/USA_state_BEV_LDVHDV_output.xml</Value>
  		<Value name = "BUS_EV_funding">../input/IRA/EV_bus_investments_29p1k_USA.xml</Value> <!-- BIL funding -->

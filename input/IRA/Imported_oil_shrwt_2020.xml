@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="regional oil">
+                  <subsector name="imported crude oil">
+                        <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2030" delete="1"> 
+                        <interpolation-function name="fixed"/>
+    				<overwrite-policy warn="0">ALWAYS</overwrite-policy>
+                    </interpolation-rule>
+					<from-value>0.05</from-value>
+                  
+                  
+				 <share-weight year="2020">0.05</share-weight>
+				 <share-weight year="2025">0.05</share-weight>
+ 				<share-weight year="2030">0.05</share-weight>
+	     	
+                    
+                </subsector> 
+   			</supplysector>
+		</region>
+    </world>
+</scenario>

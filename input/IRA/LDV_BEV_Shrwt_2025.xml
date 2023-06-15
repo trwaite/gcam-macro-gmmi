@@ -8,18 +8,21 @@
                         <interpolation-function name="fixed"/>
                     </interpolation-rule>
 
-                        <period year="2025">
-                            <share-weight>0.15</share-weight>
+                        <period year="2020">
+                            <share-weight>0.05</share-weight>
+                        </period>
+						<period year="2025">
+                            <share-weight>0.25</share-weight>
                         </period>
                         <period year="2030">
-                            <share-weight>0.75</share-weight>
+                            <share-weight>0.45</share-weight>
                         </period>
   						<period year="2035">
                             <share-weight>1</share-weight>
                         </period>
                     
                     </stub-technology>
-                </tranSubsector>
+                </tranSubsector> 
    </supplysector>
 
  <supplysector name="trn_pass_road_LDV_4W">
@@ -29,11 +32,14 @@
                         <interpolation-function name="fixed"/>
                     </interpolation-rule>
 
-                        <period year="2025">
+                         <period year="2020">
+                            <share-weight>0.05</share-weight>
+                        </period>
+						<period year="2025">
                             <share-weight>0.15</share-weight>
                         </period>
                         <period year="2030">
-                            <share-weight>0.75</share-weight>
+                            <share-weight>0.3</share-weight>
                         </period>
   						<period year="2035">
                             <share-weight>1</share-weight>
@@ -43,26 +49,7 @@
                 </tranSubsector>
    </supplysector>
 
-<supplysector name="trn_pass_road_LDV">
-                <tranSubsector name="2W and 3W">
-                    <stub-technology name="BEV">
-                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1"> 
-                        <interpolation-function name="fixed"/>
-                    </interpolation-rule>
 
-                        <period year="2025">
-                            <share-weight>0.15</share-weight>
-                        </period>
-                        <period year="2030">
-                            <share-weight>0.75</share-weight>
-                        </period>
-  						<period year="2035">
-                            <share-weight>1</share-weight>
-                        </period>
-                    
-                    </stub-technology>
-                </tranSubsector>
-   </supplysector>
 
    </region>
     </world>

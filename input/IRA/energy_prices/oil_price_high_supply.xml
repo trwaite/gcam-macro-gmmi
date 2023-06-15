@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="regional oil">
+                <subsector name="domestic crude oil">
+                    <stub-technology name="domestic crude oil">
+                        <period year="2020">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.906196468</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.17335697</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.07598439</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.219984663</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.281694736</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.17862626</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.258713473</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="imported crude oil">
+                    <stub-technology name="imported crude oil">
+                        <period year="2020">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.906196468</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.17335697</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.07598439</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.219984663</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.281694736</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.17862626</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>0.258713473</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

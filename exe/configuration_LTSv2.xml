@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/AllRuns2050_basexdb</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/AllRuns2100_basexdb</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -134,8 +134,8 @@
          <Value name = "hybridSHWT">../input/CAFE/Hybrid_shrwt_2_GCAM-global.xml</Value>
       
 
-		 <!--LDV BEV shareweights adjustment in 2025, 2030-->
-         <Value name = "ldvBEV">../input/IRA/LDV_BEV_Shrwt_2025.xml</Value>
+		 <!--LDV BEV, FECV shareweights adjustment in 2025, 2030-->
+         <Value name = "ldvBEV_FCEV">../input/IRA/LDV_BEV_FCEV_Shrwt_2025_2030.xml</Value>
 
 		<!--------------------------------------------------------------------------------------------------------------------------------->
         	<!--------------------------------------------------------------------------------------------------------------------------------->
@@ -148,13 +148,13 @@
 		<Value name = "coal_ceiling">../input/IRA/ELEC_coal_constraint_EIR.xml</Value> <!-- Energy Infrastructure Reinvestment provision  -->
 
 
-         <!--Transport-->
-         <Value name = "EV-tax-credit">../input/IRA/IRA_30D_EV_tax-credits_medium_USA.xml</Value>
-         <Value name = "45W_Truck">../input/IRA/IRA_45W_truck_tax-credits_USA.xml</Value>
-         <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA.xml</Value>
+      <!--Transport-->
+         <Value name = "EV-tax-credit">../input/IRA/IRA_30D_EV_tax-credits_medium_USA_40pct2035.xml</Value>
+         <Value name = "45W_Truck">../input/IRA/IRA_45W_truck_tax-credits_USA_40pct2035.xml</Value>
+         <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA_40pct2035.xml</Value>
          <Value name = "EV_credit_state">../input/IRA/EV_credit_state.xml</Value>
          <Value name = "EV_sales_state">../input/IRA/USA_state_BEV_LDVHDV_output.xml</Value>
-        <Value name = "BUS_EV_funding">../input/IRA/EV_bus_investments_29p1k_USA.xml</Value> <!-- BIL funding -->
+ 		<Value name = "BUS_EV_funding">../input/IRA/EV_bus_investments_29p1k_USA.xml</Value> <!-- BIL funding -->
 		<Value name = "freight_BEV">../input/IRA/ZEV_trucks_BEV_Target_fixed_output_national.xml</Value>
 
 		<!--IIJA_EV_CHARGING-->
@@ -248,7 +248,7 @@
 		
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">LTS_strong13</Value>
+		<Value name="scenarioName">LTS_2100</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
@@ -273,7 +273,7 @@
 		<Value name="carbon-output-start-year">1705</Value>
 		<Value name="climateOutputInterval">5</Value>
 		<Value name="parallel-grain-size">50</Value>
-		<Value name="stop-period">11</Value>
+		<Value name="stop-period">-1</Value>
 		<Value name="stop-year">-1</Value>
 		<Value name="restart-period">-1</Value>
 		<Value name="restart-year">-1</Value>

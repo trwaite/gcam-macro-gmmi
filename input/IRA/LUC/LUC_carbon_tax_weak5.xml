@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario name="CCSP450">
+    <world>
+        <region name="USA">
+            <ghgpolicy name="CO2_LUC">
+                <market>USA</market>
+               
+                <fixedTax year="2020">10</fixedTax>
+                <fixedTax year="2025">30</fixedTax>
+                <fixedTax year="2030">40</fixedTax>
+                <fixedTax year="2035">75</fixedTax>
+                <fixedTax year="2040">100</fixedTax>
+                <fixedTax year="2045">125</fixedTax>
+                <fixedTax year="2050">150</fixedTax>
+  				<fixedTax year="2055">70</fixedTax>
+  				<fixedTax year="2060">70</fixedTax>
+ 				 <fixedTax year="2065">70</fixedTax>
+ 				 <fixedTax year="2070">70</fixedTax>
+  				<fixedTax year="2075">70</fixedTax>
+  				<fixedTax year="2080">70</fixedTax>
+				<fixedTax year="2085">70</fixedTax>
+				<fixedTax year="2090">70</fixedTax>
+				<fixedTax year="2095">70</fixedTax>
+				<fixedTax year="2100">70</fixedTax>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

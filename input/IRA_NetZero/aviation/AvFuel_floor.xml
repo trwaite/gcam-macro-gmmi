@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <policy-portfolio-standard name="AvFuel-floor">
+            <market>USA</market>
+            <policyType>subsidy</policyType>
+            <constraint year="2045">3.3</constraint>
+            <constraint year="2050">3.4</constraint>
+         </policy-portfolio-standard>
+      </region>
+   </world>
+</scenario>
