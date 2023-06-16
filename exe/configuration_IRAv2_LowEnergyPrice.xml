@@ -118,7 +118,9 @@
 
 		<!--  UPDATED OIL AND GAS PRICES-->  <!-- high supply, low prices-->
 
-    		<Value name = "low_oil_prices">../input/IRA/energy_prices/oil_price_high_supply.xml</Value>
+    		<Value name = "oil_gas__historical_prices">../input/IRA/energy_prices/USA_NG_OIL_price.xml</Value>
+
+			<Value name = "low_oil_prices">../input/IRA/energy_prices/oil_price_high_supply.xml</Value>
 			<Value name = "low_gas_prices">../input/IRA/energy_prices/gas_price_high_supply.xml</Value>
 
   			<!--HistoricalGasElec-->

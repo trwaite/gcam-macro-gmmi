@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <resource name="natural gas">
+                <price year="2010">1.26</price>
+                <price year="2015">0.694</price>
+            </resource>
+            <resource name="crude oil">
+                <price year="2010">3.958</price>
+                <price year="2015">2.223</price>
+            </resource>
+        </region>
+    </world>
+</scenario>

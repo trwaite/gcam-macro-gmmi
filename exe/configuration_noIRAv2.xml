@@ -112,6 +112,12 @@
 
 		<!--  UPDATED OIL AND GAS PRICES-->
 
+		<!--  UPDATED OIL AND GAS PRICES-->
+
+			<Value name = "oil_gas__historical_prices">../input/IRA/energy_prices/USA_NG_OIL_price.xml</Value>
+    		<Value name = "baseline_oil_prices">../input/IRA/energy_prices/oil_price_REF.xml</Value>
+			<Value name = "baseline_gas_prices">../input/IRA/energy_prices/gas_price_REF.xml</Value>
+
   		
   		<!--ElecSWAdj-->
          <Value name = "elecSW">../input/fecm/elec_SW_EMF.xml</Value>
@@ -164,7 +170,7 @@
 		
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">noIRA_2100</Value>
+		<Value name="scenarioName">noIRA</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
@@ -189,7 +195,7 @@
 		<Value name="carbon-output-start-year">1705</Value>
 		<Value name="climateOutputInterval">5</Value>
 		<Value name="parallel-grain-size">50</Value>
-		<Value name="stop-period">-1</Value>
+		<Value name="stop-period">11</Value>
 		<Value name="stop-year">-1</Value>
 		<Value name="restart-period">-1</Value>
 		<Value name="restart-year">-1</Value>
