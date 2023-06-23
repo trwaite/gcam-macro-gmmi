@@ -116,12 +116,11 @@
 
     		<Value name = "baseline_growth">../input/IRA/socioeconomics/socioeconomics_gSSP2_Ref_both_IRA.xml</Value>
 
-		<!--  UPDATED OIL AND GAS PRICES-->  <!-- high supply, low prices-->
+		<!--  UPDATED OIL AND GAS PRICES-->  <!-- low supply, high prices-->
 
     		<Value name = "oil_gas__historical_prices">../input/IRA/energy_prices/USA_NG_OIL_price.xml</Value>
-
-			<Value name = "low_oil_prices">../input/IRA/energy_prices/oil_price_high_supply.xml</Value>
-			<Value name = "low_gas_prices">../input/IRA/energy_prices/gas_price_high_supply.xml</Value>
+			<Value name = "high_oil_prices">../input/IRA/energy_prices/oil_price_low_supply.xml</Value>
+			<Value name = "high_gas_prices">../input/IRA/energy_prices/gas_price_low_supply.xml</Value>
 
   			<!--HistoricalGasElec-->
          <Value name = "gas2020">../input/fecm/elec_gas_ceiling_2020.xml</Value>
@@ -224,7 +223,7 @@
 		
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">IRA_LowEnergyPrice</Value>
+		<Value name="scenarioName">IRA_LowEnergySupply</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
