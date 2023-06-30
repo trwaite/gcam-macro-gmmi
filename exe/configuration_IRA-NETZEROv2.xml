@@ -128,7 +128,7 @@
  		 <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
 
 
-        <!--NoNewGas  from 2025 onwards-->
+        <!--NoNewGas  from 2025 onwards--> <!-- Same shareweights <2030 as GasElec_Shrwt_zero2025_restart2040.xml-->
          <Value name = "nonewgas">../input/LTS/electricity/GasElec_Shrwt_zero2025v2.xml</Value>
 
          <!--CoalRetirement-->
@@ -254,7 +254,7 @@
 		<!--------------------------------------------------------------------------------------------------------------------------------->
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">IRA-NetZero</Value>
+		<Value name="scenarioName">IRA-NetZero_v19</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
@@ -279,7 +279,7 @@
 		<Value name="carbon-output-start-year">1705</Value>
 		<Value name="climateOutputInterval">5</Value>
 		<Value name="parallel-grain-size">50</Value>
-		<Value name="stop-period">-1</Value>
+		<Value name="stop-period">11</Value>
 		<Value name="stop-year">-1</Value>
 		<Value name="restart-period">-1</Value>
 		<Value name="restart-year">-1</Value>

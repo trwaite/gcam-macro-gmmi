@@ -131,14 +131,12 @@
  		 <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
 
         
-		<!--NoNewGas 2025 to 2040-->
-         <Value name = "nonewgas">../input/IRA/GasElec_Shrwt_zero2025_restart2040.xml</Value>
+		 <!--Same as IRA for 2020 for gas-->
+         <Value name = "nonewgas">../input/IRA/GasElec_Shrwt_NoIRA_2020.xml</Value>
 
           <!--CoalRetirement-->
          <Value name = "coal2015">../input/IRA/elec_water/coal_USA2015_exoshutdown_noIRA.xml</Value>
-       
- 		<!--CoalGasCCS-->
-         <!--Value name = "coalgasCCS">../input/IRA/elec_water/Coal_Gas_CCS_fixed.xml</Value-->
+  
 
          <!--existing CAFE-->
          <Value name = "ldvCAFE">../input/CAFE/CAFE_LDV_CurPol_GCAM-global.xml</Value>
@@ -195,7 +193,7 @@
 		
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">NoIRA_v15</Value>
+		<Value name="scenarioName">NoIRA</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>

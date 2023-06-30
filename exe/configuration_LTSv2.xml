@@ -113,7 +113,7 @@
          <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
 
          <!--Prices-->
-         <Value name = "OG_price">../input/fecm/OG.cost_ref.xml</Value>
+         <!--Value name = "OG_price">../input/fecm/OG.cost_ref.xml</Value-->  <!-- This is not included in RIA or IRA-NZ.  Removed for consistency -->
          <Value name = "elec_price">../input/fecm/StubTechCost_elecownuse.xml</Value>
 
          <!--Elec adjustment-->

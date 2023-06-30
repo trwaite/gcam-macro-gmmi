@@ -127,5 +127,7 @@
     <solution-info-param-parser>
         <!-- applies to all regions since region attribute is not included -->
         <max-price-change fillout="1" market-type="Trial-Value" period="1">10</max-price-change>
+        <solution-floor fillout="1" good="natural gas" region="Japan" period="2">0.0002</solution-tolerance>
+        <solution-tolerance fillout="1" good="GHG" region="Central Asia" period="5">0.002</solution-tolerance>
     </solution-info-param-parser>
 </scenario>
