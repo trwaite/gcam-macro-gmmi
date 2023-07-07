@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/AllRuns2100_basexdb</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/AllRuns2050_basexdb</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -105,6 +105,17 @@
 
    <!--DAC-->
          <Value name = "dac">../input/gcamdata/xml/dac_ssp2.xml</Value>
+
+		<!--  UPDATED SOCIOECONOMICS-->
+
+    		<Value name = "baseline_growth">../input/IRA/socioeconomics/socioeconomics_gSSP2_Ref_both_IRA.xml</Value>
+
+		<!--  UPDATED OIL AND GAS PRICES-->
+
+			<Value name = "oil_gas__historical_prices">../input/IRA/energy_prices/USA_NG_OIL_price.xml</Value>
+    		<Value name = "baseline_oil_prices">../input/IRA/energy_prices/oil_price_REF.xml</Value>
+			<Value name = "baseline_gas_prices">../input/IRA/energy_prices/gas_price_REF.xml</Value>
+
 
          <!--EMF37 add ons-->
          <Value name = "us_current_policy">../input/fecm/US_no.new.coal.nuclear.xml</Value>
@@ -273,7 +284,7 @@
 		<Value name="carbon-output-start-year">1705</Value>
 		<Value name="climateOutputInterval">5</Value>
 		<Value name="parallel-grain-size">50</Value>
-		<Value name="stop-period">-1</Value>
+		<Value name="stop-period">11</Value>
 		<Value name="stop-year">-1</Value>
 		<Value name="restart-period">-1</Value>
 		<Value name="restart-year">-1</Value>
