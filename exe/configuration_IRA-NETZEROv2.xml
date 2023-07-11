@@ -254,7 +254,7 @@
 		<!--------------------------------------------------------------------------------------------------------------------------------->
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">IRA-NetZero_v19</Value>
+		<Value name="scenarioName">IRA-NetZero</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
