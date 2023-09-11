@@ -10,16 +10,16 @@
                 <fixedTax year="2035">120</fixedTax>
                 <fixedTax year="2040">160</fixedTax>
                 <fixedTax year="2045">250</fixedTax>
-                <fixedTax year="2050">480</fixedTax>
-  				<fixedTax year="2055">480</fixedTax>
-  				<fixedTax year="2060">480</fixedTax>
- 				 <fixedTax year="2065">480</fixedTax>
-  				<fixedTax year="2070">480</fixedTax>
- 				 <fixedTax year="2075">480</fixedTax>
-  				<fixedTax year="2080">480</fixedTax>
-  				<fixedTax year="2085">480</fixedTax>
-  				<fixedTax year="2090">480</fixedTax>
- 				 <fixedTax year="2100">480</fixedTax>
+                <fixedTax year="2050">450</fixedTax>
+  				<fixedTax year="2055">350</fixedTax>
+  				<fixedTax year="2060">350</fixedTax>
+ 				 <fixedTax year="2065">350</fixedTax>
+  				<fixedTax year="2070">350</fixedTax>
+ 				 <fixedTax year="2075">350</fixedTax>
+  				<fixedTax year="2080">350</fixedTax>
+  				<fixedTax year="2085">350</fixedTax>
+  				<fixedTax year="2090">350</fixedTax>
+ 				 <fixedTax year="2100">350</fixedTax>
             </ghgpolicy>
         </region>
     </world>

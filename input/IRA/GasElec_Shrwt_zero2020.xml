@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+
+            <supplysector name="electricity">
+                <subsector name="gas">
+                    <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <share-weight year="2020">0</share-weight>
+                   
+				<stub-technology name="gas (CC)">
+                    <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1"> 
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  
+				</stub-technology>
+
+				<stub-technology name="gas (steam/CT)">
+                    <interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100" delete="1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                  <period year="2020">
+                     <share-weight>0</share-weight>
+                  </period>
+                  
+				</stub-technology>
+                </subsector>
+            </supplysector>
+
+
+        </region>
+   </world>
+</scenario>
