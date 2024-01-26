@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><scenario>
     <world>
-        <global-technology-database>
-            <location-info sector-name="elect_td_bld" subsector-name="rooftop_pv">
-                <intermittent-technology name="rooftop_pv">
-                    <period year="2020">
-                        <input-capital name="capital">
-                            <fixed-charge-rate>0.074</fixed-charge-rate>
-                        </input-capital>
-                    </period>
-                    <period year="2025">
-                        <input-capital name="capital">
-                            <fixed-charge-rate>0.07</fixed-charge-rate>
-                        </input-capital>
-                    </period>
-                    <period year="2030">
-                        <input-capital name="capital">
-                            <fixed-charge-rate>0.07</fixed-charge-rate>
-                        </input-capital>
-                    </period>
-                    <period year="2035">
-                        <input-capital name="capital">
-                            <fixed-charge-rate>0.078</fixed-charge-rate>
-                        </input-capital>
-                    </period>
-                    <period year="2040">
-                        <input-capital name="capital">
-                            <fixed-charge-rate>0.09</fixed-charge-rate>
-                        </input-capital>
-                    </period>
-                    <period year="2045">
-                        <input-capital name="capital">
-                            <fixed-charge-rate>0.09</fixed-charge-rate>
-                        </input-capital>
-                    </period>
-                    <period year="2050">
-                        <input-capital name="capital">
-                            <fixed-charge-rate>0.09</fixed-charge-rate>
-                        </input-capital>
-                    </period>
-                </intermittent-technology>
-            </location-info>
-        </global-technology-database>
+        <region name="USA">
+            <supplysector name="elect_td_bld">
+                <subsector name="rooftop_pv">
+                    <stub-technology name="rooftop_pv">
+                        <period year="2020">
+                            <minicam-non-energy-input name="capital">
+                                <input-cost>9.517597086</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="capital">
+                                <input-cost>6.028184288</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="capital">
+                                <input-cost>4.462422135</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="capital">
+                                <input-cost>4.041903157</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="capital">
+                                <input-cost>4.110125651</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="capital">
+                                <input-cost>3.808157236</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="capital">
+                                <input-cost>3.657173028</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
     </world>
 </scenario>

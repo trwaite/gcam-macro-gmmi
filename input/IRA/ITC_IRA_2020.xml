@@ -5,39 +5,39 @@
                 <subsector name="solar">
                     <stub-technology name="CSP">
                         <period year="2020">
-                            <input-capital name="capital">
+                            <tracking-non-energy-input name="capital">
                                 <fixed-charge-rate>0.091</fixed-charge-rate>
-                            </input-capital>
+                            </tracking-non-energy-input>
                         </period>
                     </stub-technology>
                     <stub-technology name="CSP_storage">
                         <period year="2020">
-                            <input-capital name="capital">
+                            <tracking-non-energy-input name="capital">
                                 <fixed-charge-rate>0.091</fixed-charge-rate>
-                            </input-capital>
+                            </tracking-non-energy-input>
                         </period>
                     </stub-technology>
                     <stub-technology name="PV">
                         <period year="2020">
-                            <input-capital name="capital">
+                            <tracking-non-energy-input name="capital">
                                 <fixed-charge-rate>0.091</fixed-charge-rate>
-                            </input-capital>
+                            </tracking-non-energy-input>
                         </period>
                     </stub-technology>
                     <stub-technology name="PV_storage">
                         <period year="2020">
-                            <input-capital name="capital">
+                            <tracking-non-energy-input name="capital">
                                 <fixed-charge-rate>0.091</fixed-charge-rate>
-                            </input-capital>
+                            </tracking-non-energy-input>
                         </period>
                     </stub-technology>
                 </subsector>
                 <subsector name="wind">
                     <stub-technology name="wind_offshore">
                         <period year="2020">
-                            <input-capital name="capital">
+                            <tracking-non-energy-input name="capital">
                                 <fixed-charge-rate>0.091</fixed-charge-rate>
-                            </input-capital>
+                            </tracking-non-energy-input>
                         </period>
                         
                         
@@ -49,9 +49,9 @@
                 <subsector name="rooftop_pv">
                     <stub-technology name="rooftop_pv">
                         <period year="2020">
-                            <input-capital name="capital">
-                                <fixed-charge-rate>0.07</fixed-charge-rate>
-                            </input-capital>
+                            <tracking-non-energy-input name="capital">
+                                <input-cost>9.003132378</input-cost>
+                            </tracking-non-energy-input>
                         </period>
                         
                         
