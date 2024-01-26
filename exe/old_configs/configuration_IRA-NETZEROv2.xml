@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/LTSv2_noMac</Value>
+	<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/IRA-NETZEROv2_noSocio_noMac</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -31,8 +31,8 @@
 		<Value name = "industry_income_elas">../input/gcamdata/xml/other_industry_incelas_gssp2.xml</Value>
 
  		<Value name = "iron_steel">../input/gcamdata/xml/iron_steel.xml</Value>
-		<Value name = "iron_steel_income_elas">../input/gcamdata/xml/iron_steel_incelas_gssp2.xml</Value>  
-		<Value name = "iron_steel_trade">../input/gcamdata/xml/iron_steel_trade.xml</Value> 
+		<Value name = "iron_steel_income_elas">../input/gcamdata/xml/iron_steel_incelas_gssp2.xml</Value> 
+		<Value name = "iron_steel trade">../input/gcamdata/xml/iron_steel_trade.xml</Value>  
  		<Value name = "Off_road">../input/gcamdata/xml/Off_road.xml</Value>
 		<Value name = "Off_road_income_elas">../input/gcamdata/xml/Off_road_incelas_gssp2.xml</Value>  
  		<Value name = "chemical">../input/gcamdata/xml/chemical.xml</Value>
@@ -48,7 +48,7 @@
 		<Value name = "transportation">../input/gcamdata/xml/transportation_UCD_CORE.xml</Value>
 		<Value name = "carbon_content">../input/gcamdata/xml/Ccoef.xml</Value>
 		<Value name = "carbon_storage">../input/gcamdata/xml/Cstorage.xml</Value>
-        	<Value name = "wind_update">../input/gcamdata/xml/onshore_wind.xml</Value>
+		<Value name = "wind_update">../input/gcamdata/xml/onshore_wind.xml</Value>
 
 
 		<Value name = "ag_base">../input/gcamdata/xml/ag_For_Past_bio_base_IRR_MGMT.xml</Value>
@@ -102,18 +102,13 @@
 		<Value name = "bio_feedstock_limit">../input/gcamdata/xml/liquids_limits.xml</Value>
 		<Value name = "bio_elec_w_feed_limit">../input/gcamdata/xml/water_elec_liquids_limits.xml</Value>
 		<Value name = "bio_externality">../input/gcamdata/xml/bio_externality.xml</Value>
-
-
 		<Value name = "gas_trade">../input/gcamdata/xml/gas_trade.xml</Value>
 
 		<Value name = "prune_ag">../input/gcamdata/xml/prune_empty_ag.xml</Value>
 
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 
-
-
-
-   <!--DAC-->
+         <!--DAC-->
          <Value name = "dac">../input/gcamdata/xml/dac_ssp2.xml</Value>
 
 		<!--  UPDATED SOCIOECONOMICS-->
@@ -126,40 +121,37 @@
     		<Value name = "baseline_oil_prices">../input/IRA/energy_prices/oil_price_REF.xml</Value>
 			<Value name = "baseline_gas_prices">../input/IRA/energy_prices/gas_price_REF.xml</Value>
 
+  		<!--HistoricalGasElec-->
+         <Value name = "gas2020">../input/fecm/elec_gas_ceiling_2020.xml</Value>
+  		<!--ElecSWAdj  -->
+         <!--Value name = "elecSW">../input/IRA_NetZero/electricity/elec_SW_IRA-NetZero.xml</Value-->
+		<!--ElecSWAdj  FROM IRA CONFIG -->
+         <Value name = "elecSW">../input/fecm/elec_SW_EMF.xml</Value>
 
-         <!--EMF37 add ons-->
-         <Value name = "us_current_policy">../input/fecm/US_no.new.coal.nuclear.xml</Value>
-         <Value name = "eu_current_policy">../input/fecm/EU15_no.new.coal.nuclear.xml</Value>
-         <Value name = "no_new_nuclear_japan_SK">../input/fecm/JAP_KOR_nuclear_shrwt.xml</Value>
-         <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
+         <!--NoNewNuclearCoal-->
+         <Value name = "nonewNucCoal">../input/IRA_NetZero/electricity/US_no.new.coal.nuclear.xml</Value>
+ 		 <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
 
-         <!--Prices-->
-         <!--Value name = "OG_price">../input/fecm/OG.cost_ref.xml</Value-->  <!-- This is not included in RIA or IRA-NZ.  Removed for consistency -->
-         <Value name = "elec_price">../input/fecm/StubTechCost_elecownuse.xml</Value>
 
-         <!--Elec adjustment-->
-         <Value name = "elec_SW">../input/fecm/elec_SW_EMF.xml</Value>
-         <Value name = "elec_gas">../input/fecm/elec_gas_ceiling_2020.xml</Value>
+        <!--NoNewGas  from 2025 onwards--> <!-- Same shareweights <2030 as GasElec_Shrwt_zero2025_restart2040.xml-->
+         <Value name = "nonewgas">../input/LTS/electricity/GasElec_Shrwt_zero2025v2.xml</Value>
 
-    
-         <!--Electricity-->
-         <Value name = "nonewcoal">../input/LTS/electricity/coal_shwt_0.xml</Value>
-         <Value name = "nonewgas">../input/LTS/electricity/GasElec_Shrwt_zero2025.xml</Value>
-         <Value name = "coalRetirement2015">../input/LTS/electricity/coal_USA2015_exoshutdown.xml</Value>
-	 <Value name="ATB_addon">../input/LTS/electricity/ATB_2021_mid.xml</Value>
-         <Value name = "constantNuclear">../input/LTS/electricity/nuclear_USA2015_constant.xml</Value>
+         <!--CoalRetirement-->
+         <Value name = "coal2015">../input/IRA/elec_water/coal_USA2015_exoshutdown_minusCCS.xml</Value>
+         <!--CoalGasCCS-->
+         <Value name = "coalgasCCS">../input/IRA/elec_water/Coal_Gas_CCS_fixed.xml</Value>
 
-  <!--CAFE-->
+        <!--CAFE-->
          <Value name = "ldvCAFE">../input/CAFE/CAFE_LDV_CurPol_GCAM-global.xml</Value>
          <Value name = "freightCAFE">../input/CAFE/freight_CAFE_2022_CM_GCAM-global.xml</Value>
          <Value name = "hybridSHWT">../input/CAFE/Hybrid_shrwt_2_GCAM-global.xml</Value>
-      
+
+   
 
 		 <!--LDV BEV, FECV shareweights adjustment in 2025, 2030-->
          <Value name = "ldvBEV_FCEV">../input/IRA/LDV_BEV_FCEV_Shrwt_2025_2030.xml</Value>
 
 		<!--------------------------------------------------------------------------------------------------------------------------------->
-        	<!--------------------------------------------------------------------------------------------------------------------------------->
          <!--IRA Provisions-->
          <!--Elec-->
          <Value name = "PTC">../input/IRA/PTC_IRA.xml</Value>
@@ -168,8 +160,7 @@
          <Value name = "NuclearFixed">../input/IRA/IRA_nuclear_fixed_USA.xml</Value>
 		<Value name = "coal_ceiling">../input/IRA/ELEC_coal_constraint_EIR.xml</Value> <!-- Energy Infrastructure Reinvestment provision  -->
 
-
-      <!--Transport-->
+         <!--Transport-->
          <Value name = "EV-tax-credit">../input/IRA/IRA_30D_EV_tax-credits_medium_USA_40pct2035.xml</Value>
          <Value name = "45W_Truck">../input/IRA/IRA_45W_truck_tax-credits_USA_40pct2035.xml</Value>
          <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA_40pct2035.xml</Value>
@@ -178,13 +169,13 @@
  		<Value name = "BUS_EV_funding">../input/IRA/EV_bus_investments_29p1k_USA.xml</Value> <!-- BIL funding -->
 		<Value name = "freight_BEV">../input/IRA/ZEV_trucks_BEV_Target_fixed_output_national.xml</Value>
 
-		<!--IIJA_EV_CHARGING-->
+		 <!--IIJA_EV_CHARGING-->
          <Value name = "Heavy_truck">../input/IRA/IIJA_charging/EV_charging_Heavy_Truck_all-in_x0p1_v2_USA.xml</Value>
          <Value name = "Medium_truck">../input/IRA/IIJA_charging/EV_charging_Medium_Truck_all-in_x0p1_v2_USA.xml</Value>
          <Value name = "Light_truck">../input/IRA/IIJA_charging/EV_charging_Light_Truck_all-in_x0p1_v2_halved_USA.xml</Value>
          <Value name = "LDV">../input/IRA/IIJA_charging/EV_charging_LDV_802_USA.xml</Value>
 
-         <!--Buildings-->  <!-- See buildings file below that follows IRA path to 2030-->
+         <!--Buildings-->  <!--See below for buildings shell file that follow IRA path-->
          <Value name = "Rooftop_PV">../input/IRA/rooftopPV_building_ITC_13302.xml</Value>
          <!--Value name = "45L_shell_eff">../input/IRA/building_eff_improvement_IRA_13304_USA.xml</Value-->
 
@@ -201,16 +192,17 @@
 
 		<!-- END IRA -->
 		<!--------------------------------------------------------------------------------------------------------------------------------->
+         <!--Net-Zero Files-->
 
          <!--Aviation-->
-		 <!--Value name="intlAviationElasticity">../input/LTS/aviation/aviation_intl_elasticity.xml</Value>
-		 <Value name="avfuelfloor">../input/LTS/aviation/AvFuel_floor.xml</Value>
+		 <Value name="intlAviationElasticity">../input/LTS/aviation/aviation_intl_elasticity.xml</Value>
+		 <Value name="avfuelfloor">../input/LTS/aviation/AvFuel_floor.xml</Value> <!-- only 2045 and 2050 values -->
 		 <Value name="avfuelfloor_mkt">../input/LTS/aviation/AvFuel_floor_mkt.xml</Value>
 
          <!--SustainableAviationFuels-->
 			<Value name="aviation_Fuels">../input/LTS/aviation/aviation_fuels.xml</Value>
-			<Value name="IRA">../input/LTS/aviation/SAF_IRA.xml</Value>
-			<Value name="RES">../input/LTS/aviation/SAF_RES_avfuels.xml</Value>
+			<Value name="IRA">../input/LTS/aviation/SAF_IRA_2035_2100.xml</Value>
+			<Value name="RES">../input/LTS/aviation/SAF_RES_avfuels_2035_2100.xml</Value>
 
 		<!--  NO BioUpdatesFromDECARB2B-->
 			<!--Value name="biofuels_NREL">../input/LTS/bioenergy/biofuels_NREL.xml</Value>
@@ -220,56 +212,54 @@
 
 	         <!--COVID-->
 			<Value name="industry_adv">../input/LTS/covid/agg_industry_aeei_USA_covid_adv.xml</Value>
-			<!--Value name="transport_covid">../input/LTS/covid/agg_transport_aeei_USA_covid_adv.xml</Value-->
 			<Value name="transport_covid">../input/LTS/covid/agg_transport_aeei_USA_covid_adv_to2025.xml</Value>
 
-	    
+	   
 
 	         <!--Buildings-->		
-			<Value name="bld_shell_USA">../input/LTS/buildings/bld_shell_USA.xml</Value>
-			<Value name="bld_eff_USA">../input/LTS/buildings/building_eff_USA.xml</Value>
+			<Value name="bld_shell_USA">../input/IRA_NetZero/buildings/bld_shell_USA.xml</Value>
+			<Value name="bld_eff_USA">../input/IRA_NetZero/buildings/building_eff_USA_IRANZ.xml</Value>
 
 	         <!--Industry-->		
-			<Value name="ind_eff_USA">../input/LTS/industry/industry_eff_USA.xml</Value>
+			<Value name="ind_eff_USA">../input/IRA_NetZero/industry/industry_eff_USA_IRANZ.xml</Value>
 
-
-	         <!--Transport_HighEV-->		
-			<Value name="zeroLiq">../input/LTS/transport/car_liquid_shrwt0_2040.xml</Value>
-			<Value name="hitruckEV">../input/LTS/transport/truck_ev_shrwt_hi.xml</Value>
-			<Value name="zeroLiq">../input/LTS/transport/truck_liquid_shrwt0_2050.xml</Value>
+	          <!--Transport_HighEV-->		
+			<Value name="zeroLiq">../input/IRA_NetZero/transport/car_liquid_shrwt0_2040_IRANZ.xml</Value> <!-- only 2035 onwards -->
+			<Value name="hitruckEV">../input/IRA_NetZero/transport/truck_ev_shrwt_hiv2.xml</Value>
+			<Value name="zeroLiq">../input/IRA_NetZero/transport/truck_liquid_shrwt0_2050.xml</Value> <!-- only 2035 onwards -->
 			<Value name="freightlogit">../input/LTS/transport/freight_logit.xml</Value>
 
 
-	         <!--BECCS Ceiling-->
+
+	  <!--BECCS Ceiling-->
 			<!--Value name = "BECCS_mkt">../input/LTS/bioenergy/BECCS_mkt.xml</Value-->
 			<!-- includes SAF, elect_biomass -->
 			<Value name = "BECCS_mkt">../input/LTS/bioenergy/BECCS_mkt_avFuels.xml</Value>
             <Value name = "BECCS_ceiling">../input/LTS/bioenergy/BECCS_ceiling_low.xml</Value>
             <Value name = "BECCS_link">../input/LTS/bioenergy/BECCS_link.xml</Value>
 
-           <!--DAC-->
-         <Value name = "dac_med">../input/LTS/dac/DAC_ceiling_med_flat3.xml</Value>
-		<Value name = "dac_market">../input/LTS/dac/DAC_ceiling_mkt.xml</Value-->
+   <!--DAC-->
+         <Value name = "dac_med">../input/IRA_NetZero/DAC/DAC_ceiling_med_flat3.xml</Value>
+		<Value name = "dac_market">../input/IRA_NetZero/DAC/DAC_ceiling_mkt.xml</Value>
 
-<!--LUC LAND SINK FILES - LUC tax and new protected area files-->
 
-			<Value name="LUC_tax">../input/IRA/LUC/LUC_carbon_tax_NetZero_final.xml</Value>
+	<!--LUC LAND SINK FILES - LUC tax and new protected area files-->
 
-    <!--Policy-->
+		<Value name="LUC_tax">../input/IRA/LUC/LUC_carbon_tax_NetZero_final.xml</Value>
 
-				<Value name="ghg_constraint">../input/LTS/policy/LTS_ghg_constraint_US.xml</Value>
-				<Value name="ghg_link">../input/LTS/policy/LTS_US_ghg_link.xml</Value>
-		
+      <!--Policy-->
+			<Value name="ghg_constraint">../input/IRA_NetZero/policy/IRA_NZ_ghg_constraint_US.xml</Value>
+			<Value name="ghg_link">../input/LTS/policy/LTS_US_ghg_link.xml</Value>
+			
 
 <!--Global Emissions constraint  - ROW NDC/2% decarbonization rate with net-zero pledges in target years-->
 			<Value name="ROW_NDC">../input/IRA_NetZero/policy/MZ_ghgconstraint_Engage_glas3.xml</Value>
 				<Value name="ROW_NDC">../input/IRA_NetZero/policy/GHG_link_Engage_glas.xml</Value>
 
-
-		
+		<!--------------------------------------------------------------------------------------------------------------------------------->
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">LTS_2100</Value>
+		<Value name="scenarioName">IRA-NetZero_noMac</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
@@ -284,7 +274,7 @@
 		<Value name="createCostCurve">0</Value>
 		<Value name="debugChecking">0</Value>
 		<Value name="simulActive">1</Value>
-		<Value name="PrintValuesOnGraphs">1</Value>
+		<Value name="PrintValuesOnGraphs">1</Value> 
 		<Value name="ShowNullPaths">0</Value>
 		<Value name="PrintPrices">1</Value>
 		<Value name="QuitFirstFailure">0</Value>

@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/IRAv2_noMac_ctax</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -14,26 +14,24 @@
 		<Value write-output="0" append-scenario-name="0" name="supplyDemandOutputFileName">SDCurves.csv</Value>
 		<Value write-output="0" append-scenario-name="0" name="flow-graph">gcam-flow-graph.dot</Value>
 		<Value write-output="0" append-scenario-name="0" name="dependencyGraphName">DependencyGraph.dot</Value>
-		<Value write-output="0" append-scenario-name="0" name="landAllocatorGraphName">LandAllocatorGraph.dot</Value> 
+		<Value write-output="0" append-scenario-name="0" name="landAllocatorGraphName">LandAllocatorGraph.dot</Value>
 	</Files>
 	<ScenarioComponents>
         <Value name = "climate">../input/gcamdata/xml/hector.xml</Value>
 		<Value name = "socioeconomics">../input/gcamdata/xml/socioeconomics_gSSP2.xml</Value>
 		<Value name = "resources">../input/gcamdata/xml/resources.xml</Value>
 		<Value name = "energy_supply">../input/gcamdata/xml/en_supply.xml</Value>
-
 		<Value name = "energy_transformation">../input/gcamdata/xml/en_transformation.xml</Value>
 		<!--Value name = "electricity">../input/gcamdata/xml/electricity.xml</Value-->
-		<Value name = "elec_water_base">../input/gcamdata/xml/electricity_water_alt.xml</Value>
-		<Value name = "heat">../input/gcamdata/xml/heat.xml</Value> 
+		<Value name = "elec_water_base">../input/gcamdata/xml/electricity_water.xml</Value>
+		<Value name = "heat">../input/gcamdata/xml/heat.xml</Value>
 		<Value name = "hydrogen">../input/gcamdata/xml/hydrogen.xml</Value>
 		<Value name = "energy_distribution">../input/gcamdata/xml/en_distribution.xml</Value>
 		<Value name = "other_industry">../input/gcamdata/xml/other_industry.xml</Value>
 		<Value name = "industry_income_elas">../input/gcamdata/xml/other_industry_incelas_gssp2.xml</Value>
 
  		<Value name = "iron_steel">../input/gcamdata/xml/iron_steel.xml</Value>
-		<Value name = "iron_steel_income_elas">../input/gcamdata/xml/iron_steel_incelas_gssp2.xml</Value>  
-		<Value name = "iron_steel trade">../input/gcamdata/xml/iron_steel_trade.xml</Value> 
+		<Value name = "iron_steel_income_elas">../input/gcamdata/xml/iron_steel_incelas_gssp2.xml</Value>   
  		<Value name = "Off_road">../input/gcamdata/xml/Off_road.xml</Value>
 		<Value name = "Off_road_income_elas">../input/gcamdata/xml/Off_road_incelas_gssp2.xml</Value>  
  		<Value name = "chemical">../input/gcamdata/xml/chemical.xml</Value>
@@ -49,7 +47,6 @@
 		<Value name = "transportation">../input/gcamdata/xml/transportation_UCD_CORE.xml</Value>
 		<Value name = "carbon_content">../input/gcamdata/xml/Ccoef.xml</Value>
 		<Value name = "carbon_storage">../input/gcamdata/xml/Cstorage.xml</Value>
-		<Value name = "wind_update">../input/gcamdata/xml/onshore_wind.xml</Value>
 
 
 		<Value name = "ag_base">../input/gcamdata/xml/ag_For_Past_bio_base_IRR_MGMT.xml</Value>
@@ -97,144 +94,35 @@
 		<Value name = "nonco2_fgas">../input/gcamdata/xml/all_fgas_emissions_MAC.xml</Value>
 		<Value name = "nonco2_aglu">../input/gcamdata/xml/all_aglu_emissions_IRR_MGMT_MAC.xml</Value> 
 		<Value name = "nonco2_proc">../input/gcamdata/xml/ind_urb_processing_sectors_MAC.xml</Value> 
-
-		<Value name = "macro">../input/gcamdata/xml/socioeconomics_macro.xml</Value>
 		
 		<Value name = "bio_feedstock_limit">../input/gcamdata/xml/liquids_limits.xml</Value>
 		<Value name = "bio_elec_w_feed_limit">../input/gcamdata/xml/water_elec_liquids_limits.xml</Value>
-		<Value name = "bio_neg_emiss_budget">../input/gcamdata/xml/negative_emissions_budget.xml</Value>
+		<Value name = "bio_neg_emiss_budget">../input/gcamdata/xml/negative_emissions_budget_gSSP2.xml</Value>
 		<Value name = "bio_externality">../input/gcamdata/xml/bio_externality.xml</Value>
-		<Value name = "gas_trade">../input/gcamdata/xml/gas_trade.xml</Value>
 
-		<Value name = "prune_ag">../input/gcamdata/xml/prune_empty_ag.xml</Value>
-
+        <Value name = "wind_update">../input/gcamdata/xml/onshore_wind.xml</Value>
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 
-         <!--Small Carbon Price   THIS IS ONLY NEEDED IF THERE IS NO EMISSIONS CONSTRAINT LATER ON.  NEEDED TO GET CCS-->  
-         <!--Value name = "small_c_tax">../input/IRA/small_carbon_tax.xml</Value-->
+  		<!--HistoricalGasElec-->
+         <Value name = "gas2020">../input/fecm/elec_gas_ceiling_2020.xml</Value>
+  		<!--ElecSWAdj-->
+         <Value name = "elecSW">../input/fecm/elec_SW_EMF.xml</Value>
+  		<!--NoNewNuclearCoal-->
+         <Value name = "us_current_policy">../input/fecm/US_no.new.coal.nuclear.xml</Value>
+         <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
 
          <!--DAC-->
          <Value name = "dac">../input/gcamdata/xml/dac_ssp2.xml</Value>
 
-
-	
-         <!--  UPDATED SOCIOECONOMICS-->
-
-         <Value name = "baseline_growth">../input/IRA/socioeconomics/socioeconomics_gSSP2_Ref_both_IRA.xml</Value>
-
-         <!--  UPDATED OIL AND GAS PRICES-->
-
-         <Value name = "oil_gas__historical_prices">../input/IRA/energy_prices/USA_NG_OIL_price.xml</Value>
-         <Value name = "baseline_oil_prices">../input/IRA/energy_prices/oil_price_REF.xml</Value>
-         <Value name = "baseline_gas_prices">../input/IRA/energy_prices/gas_price_REF.xml</Value>
-
-         <!--HistoricalGasElec-->
-         <Value name = "gas2020">../input/fecm/elec_gas_ceiling_2020.xml</Value>
-
-         <!--ElecSWAdj-->
-         <Value name = "elecSW">../input/fecm/elec_SW_EMF.xml</Value>
-
-         <!--NoNewNuclearCoal-->
-         <Value name = "nonewNucCoal">../input/fecm/US_no.new.coal.nuclear.xml</Value>
-         <Value name = "no_coal_refining">../input/fecm/OECD_no.new.coal_refining.xml</Value> 
-
-         <!--NoNewGas 2025 to 2040-->
-         <Value name = "nonewgas">../input/IRA/GasElec_Shrwt_zero2025_restart2040.xml</Value>
-
          <!--CoalRetirement-->
-         <Value name = "coal2015">../input/IRA/elec_water/coal_USA2015_exoshutdown_minusCCS.xml</Value>
+         <Value name = "coal2015">../input/IRA/elec_water/coal_USA2015_exoshutdown.xml</Value>
 
-         <!--CoalGasCCS-->
-         <Value name = "coalgasCCS">../input/IRA/elec_water/Coal_Gas_CCS_fixed.xml</Value>
+		<!--LUC_tax-->
+         <Value name = "LUC">../input/IRA/LUC/LUC_carbon_tax_IRA_2005const.xml</Value>
 
-         <!--CAFE-->
-         <Value name = "ldvCAFE">../input/CAFE/CAFE_LDV_CurPol_GCAM-global.xml</Value>
-         <Value name = "freightCAFE">../input/CAFE/freight_CAFE_2022_CM_GCAM-global.xml</Value>
-         <Value name = "hybridSHWT">../input/CAFE/Hybrid_shrwt_2_GCAM-global.xml</Value>
-
-
-         <!--LDV BEV, FECV shareweights adjustment in 2025, 2030-->
-         <Value name = "ldvBEV_FCEV">../input/IRA/LDV_BEV_FCEV_Shrwt_2025_2030.xml</Value>
-
-
-        
-         <!--IRA Provisions-->
-         <!--Elec-->
-         <Value name = "PTC">../input/IRA/PTC_IRA.xml</Value>
-         <Value name = "ITC">../input/IRA/ITC_IRA.xml</Value>
-         <Value name = "Nuclear2015">../input/IRA/IRA_nuclear_2015_USA.xml</Value>
-         <Value name = "NuclearFixed">../input/IRA/IRA_nuclear_fixed_USA.xml</Value>
-         <Value name = "coal_ceiling">../input/IRA/ELEC_coal_constraint_EIR.xml</Value> <!-- Energy Infrastructure Reinvestment provision  -->
-
-         <!--Transport-->
-         <Value name = "EV-tax-credit">../input/IRA/IRA_30D_EV_tax-credits_medium_USA_40pct2035.xml</Value>
-         <Value name = "45W_Truck">../input/IRA/IRA_45W_truck_tax-credits_USA_40pct2035.xml</Value>
-         <Value name = "EV_charging">../input/IRA/IRA_alt_refuel_prop-credit_EV_charging_USA_40pct2035.xml</Value>
-         <Value name = "EV_credit_state">../input/IRA/EV_credit_state.xml</Value>
-         <!--Value name = "EV_sales_state">../input/IRA/USA_state_BEV_LDVHDV_output.xml</Value-->
-         <Value name = "BUS_EV_funding">../input/IRA/EV_bus_investments_29p1k_USA.xml</Value> <!-- BIL funding -->
-         <Value name = "freight_BEV">../input/IRA/ZEV_trucks_BEV_Target_fixed_output_national.xml</Value>
-      
-
-         <!--IIJA_EV_CHARGING-->
-         <Value name = "Heavy_truck">../input/IRA/IIJA_charging/EV_charging_Heavy_Truck_all-in_x0p1_v2_USA.xml</Value>
-         <Value name = "Medium_truck">../input/IRA/IIJA_charging/EV_charging_Medium_Truck_all-in_x0p1_v2_USA.xml</Value>
-         <Value name = "Light_truck">../input/IRA/IIJA_charging/EV_charging_Light_Truck_all-in_x0p1_v2_halved_USA.xml</Value>
-         <Value name = "LDV">../input/IRA/IIJA_charging/EV_charging_LDV_802_USA.xml</Value>
-
-
-         <!--Buildings-->
-         <Value name = "Rooftop_PV">../input/IRA/rooftopPV_building_ITC_13302.xml</Value>
-         <!--Value name = "EE_comm_bld">../input/emf-addons/IRA/GlobalTechCost_bld_gcamusa_comm_credit.xml</Value-->
-         <!--Value name = "HE_elec_home_rebate">../input/emf-addons/IRA/GlobalTechCost_bld_gcamusa_elec_subsidy.xml</Value-->
-         <Value name = "45L_shell_eff">../input/IRA/building_eff_improvement_IRA_13304_USA.xml</Value>
-
-         <!--Industry-->
-         <Value name = "hydrogen-subsidy">../input/IRA/H2_IRA_subsidy_mid.xml</Value>
-         <Value name = "45Q">../input/IRA/45Q_mid.xml</Value>
-         <Value name = "biofuels">../input/IRA/IRA_biofuels_GCAM.xml</Value>
-         <!--Value name = "IRA_loan_guarantee">../input/emf-addons/IRA/IRA_loan_guarantee.xml</Value-->
-
-         <!--nonCO2-->
-         <!--Value name = "Aglu_Emissions">../input/emf-addons/IRA/all_aglu_emissions_IRR_MGMT_MAC_US_Livestock_IRA.xml</Value-->
-         <Value name = "ag_methane">../input/IRA/US_livestock_CH4_MAC.xml</Value>
-         <Value name = "ag_methane">../input/IRA/US_livestock_CH4_tax.xml</Value>
-         <Value name = "CH4_ERP">../input/IRA/US_resource_CH4_MAC_med.xml</Value>
-         <Value name = "CH4_ERP_Tax">../input/IRA/US_resource_CH4_tax.xml</Value>
-
-         <!-- END IRA -->
-
-         <!--BECCS Ceiling-->
-         <!--Value name = "BECCS_mkt">../input/LTS/bioenergy/BECCS_mkt.xml</Value-->
-         <!-- elect_biomass, but not SAF -->
-         <Value name = "BECCS_mkt">../input/LTS/bioenergy/BECCS_mkt_update.xml</Value>
-         <Value name = "BECCS_ceiling">../input/LTS/bioenergy/BECCS_ceiling_low.xml</Value>
-         <Value name = "BECCS_link">../input/LTS/bioenergy/BECCS_link.xml</Value>
-
-         <!--DAC-->
-         <Value name = "dac_med">../input/IRA_NetZero/DAC/DAC_ceiling_med_flat3.xml</Value>
-         <Value name = "dac_market">../input/IRA_NetZero/DAC/DAC_ceiling_mkt.xml</Value>
-
-         <!--LUC LAND SINK FILES - LUC tax and new protected area files-->
-
-         <Value name="LUC_tax">../input/IRA/LUC/LUC_carbon_tax_IRA_final.xml</Value>
-
-    <!--COVID-->
-			<Value name="industry_adv">../input/LTS/covid/agg_industry_aeei_USA_covid_adv.xml</Value>
-			<Value name="transport_covid">../input/LTS/covid/agg_transport_aeei_USA_covid_adv_to2025.xml</Value>
-
-<!--Keep post-2050 emissions the same-->
-				<Value name="ghg_constraint">../input/IRA/US_emissions/IRA_ghg_constraint_US.xml</Value>
-				<Value name="ghg_link">../input/IRA/US_emissions/IRA_US_ghg_link.xml</Value-->
-
-<!--Global Emissions constraint  - ROW NDCs-->  
-			<Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_grossGHG_noNetZero_V2.xml</Value> 
-				<Value name="ROW_NDC">../input/IRA/ROW_emissions/NDC_link_grossGHG_noNetZero.xml</Value>
-
-		
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">IRA_noMac_ctax</Value>
+		<Value name="scenarioName">Ref_ElecWater</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
@@ -242,8 +130,6 @@
 	</Strings>
 	<Bools>
 		<Value name="CalibrationActive">1</Value>
-		<!-- Fixed GDP will calibrate to exogenous path -->
-		<Value name="FixedGDP-Path">1</Value>
 		<Value name="BatchMode">0</Value>
 		<Value name="find-path">0</Value>
 		<Value name="createCostCurve">0</Value>
@@ -261,7 +147,7 @@
 		<Value name="carbon-output-start-year">1705</Value>
 		<Value name="climateOutputInterval">5</Value>
 		<Value name="parallel-grain-size">50</Value>
-		<Value name="stop-period">-1</Value>
+		<Value name="stop-period">11</Value>
 		<Value name="stop-year">-1</Value>
 		<Value name="restart-period">-1</Value>
 		<Value name="restart-year">-1</Value>
