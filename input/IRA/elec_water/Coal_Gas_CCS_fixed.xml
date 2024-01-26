@@ -51,7 +51,7 @@
                 </subsector>
             </supplysector>
 
-   <supplysector name="electricity">
+   <!--supplysector name="electricity">
                 <subsector name="gas">
 				<stub-technology name="gas (CC CCS)">
                     <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
@@ -80,7 +80,7 @@
                   </period>
 				</stub-technology>
                 </subsector>
-            </supplysector>
+            </supplysector-->
         </region>
     </world>
 </scenario>
