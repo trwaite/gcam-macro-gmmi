@@ -69,22 +69,45 @@
                     <totalPop>457531</totalPop>
                 </populationMiniCAM>
             </demographics>
-            <GDP>
-                <baseGDP>3619364</baseGDP>
-                <laborforce fillout="1" year="1975">0.5</laborforce>
-                <laborproductivity year="1990">0.02482</laborproductivity>
-                <laborproductivity year="2005">0.02076</laborproductivity>
-                <laborproductivity year="2010">-0.00171</laborproductivity>
-                <laborproductivity year="2015">0.01423</laborproductivity>
-                <laborproductivity year="2020">0.0065728</laborproductivity>
-                <laborproductivity year="2025">0.0161209</laborproductivity>
-                <laborproductivity year="2030">0.0137008</laborproductivity>
-                <laborproductivity year="2035">0.0136526</laborproductivity>
-                <laborproductivity year="2040">0.0168511</laborproductivity>
-                <laborproductivity year="2045">0.0178136</laborproductivity>
-                <laborproductivity year="2050">0.0178826</laborproductivity>
-                <PPPConvert constRatio="1">0.97414</PPPConvert>
-            </GDP>
+	    <nationalAccountContainer>
+		<nationalAccount year="1975">
+		    <GDP>3619364</GDP>
+		</nationalAccount>
+		<nationalAccount year="1990">
+		    <GDP>6019695</GDP>
+		</nationalAccount>
+		<nationalAccount year="2005">
+		    <GDP>9574268</GDP>
+		</nationalAccount>
+		<nationalAccount year="2010">
+		    <GDP>9936415</GDP>
+		</nationalAccount>
+		<nationalAccount year="2015">
+		    <GDP>11061709</GDP>
+		</nationalAccount>
+		<nationalAccount year="2020">
+		    <GDP>11880573</GDP>
+		</nationalAccount>
+		<nationalAccount year="2025">
+		    <GDP>12891984</GDP>
+		</nationalAccount>
+		<nationalAccount year="2030">
+		    <GDP>14144195</GDP>
+		</nationalAccount>
+		<nationalAccount year="2035">
+		    <GDP>15482797</GDP>
+		</nationalAccount>
+		<nationalAccount year="2040">
+		    <GDP>17149133</GDP>
+		</nationalAccount>
+		<nationalAccount year="2045">
+		    <GDP>19032138</GDP>
+		</nationalAccount>
+		<nationalAccount year="2050">
+		    <GDP>21100884</GDP>
+		</nationalAccount>
+		<gdp-ppp-conversion>0.97414</gdp-ppp-conversion>
+	    </nationalAccountContainer>
         </region>
     </world>
 </scenario>
