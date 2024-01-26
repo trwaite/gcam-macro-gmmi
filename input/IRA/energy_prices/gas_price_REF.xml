@@ -2,6 +2,7 @@
     <world>
         <region name="USA">
             <supplysector name="regional natural gas">
+              <nesting-subsector name="domestic natural gas">
                 <subsector name="domestic natural gas">
                     <stub-technology name="domestic natural gas">
                         <period year="2020">
@@ -41,8 +42,10 @@
                         </period>
                     </stub-technology>
                 </subsector>
-                <subsector name="imported natural gas">
-                    <stub-technology name="imported natural gas">
+             </nesting-subsector>
+             <nesting-subsector name="imported natural gas">
+                <subsector name="imported LNG">
+                    <stub-technology name="imported LNG">
                         <period year="2020">
                             <minicam-non-energy-input name="regional price adjustment">
                                 <input-cost>-0.433835635</input-cost>
@@ -80,6 +83,47 @@
                         </period>
                     </stub-technology>
                 </subsector>
+                <subsector name="imported pipeline gas">
+                    <stub-technology name="imported N.Amer pipeline gas">
+                        <period year="2020">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.433835635</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.322210478</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.438781328</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.280064318</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.291386508</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.399991468</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="regional price adjustment">
+                                <input-cost>-0.549119205</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+
+              </nesting-subsector>
             </supplysector>
         </region>
     </world>
