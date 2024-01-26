@@ -4,16 +4,6 @@
 
             <supplysector name="electricity">
                 <subsector name="gas">
-					<interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
-                        <interpolation-function name="fixed"/>
-                    </interpolation-rule>
-                    <share-weight year="2025">0</share-weight>
-                    <share-weight year="2030">0</share-weight>
-                    <share-weight year="2035">0</share-weight>
-                    <share-weight year="2040">0</share-weight>
-                    <share-weight year="2045">0</share-weight>
-                    <share-weight year="2050">0</share-weight>
-
 				<stub-technology name="gas (CC)">
                     <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1"> 
                         <interpolation-function name="fixed"/>
