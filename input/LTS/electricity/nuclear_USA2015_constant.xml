@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><scenario>
     <world>
         <region name="USA">
-            <supplysector name="electricity">
-                <subsector name="nuclear">
-				   <stub-technology name="Gen_II_LWR">
+            <pass-through-sector name="elec_Gen_II_LWR">
+                <subsector name="Gen_II_LWR">
+		    <stub-technology name="Gen_II_LWR (once through)">
                       <period year="2015">
                           <exogenous-shutdown-decider name="exogenous-shutdown">
                             <output-scalar year="2020">1</output-scalar>
@@ -29,9 +29,90 @@
                         <profit-shutdown-decider name="profit" delete="1">>
                         </profit-shutdown-decider>
                       </period>
-				   </stub-technology >
+		    </stub-technology>
+		    <stub-technology name="Gen_II_LWR (seawater)">
+                      <period year="2015">
+                          <exogenous-shutdown-decider name="exogenous-shutdown">
+                            <output-scalar year="2020">1</output-scalar>
+                            <output-scalar year="2025">1</output-scalar>
+                            <output-scalar year="2030">1</output-scalar>
+                            <output-scalar year="2035">1</output-scalar>
+                            <output-scalar year="2040">1</output-scalar>
+                            <output-scalar year="2045">1</output-scalar>
+                            <output-scalar year="2050">1</output-scalar>
+                            <output-scalar year="2055">0</output-scalar>
+                            <output-scalar year="2060">0</output-scalar>
+                            <output-scalar year="2065">0</output-scalar>
+                            <output-scalar year="2070">0</output-scalar>
+                            <output-scalar year="2075">0.0</output-scalar>
+                            <output-scalar year="2080">0.0</output-scalar>
+                            <output-scalar year="2085">0.0</output-scalar>
+                            <output-scalar year="2090">0.0</output-scalar>
+                            <output-scalar year="2095">0.0</output-scalar>
+                            <output-scalar year="2100">0.0</output-scalar>
+                           </exogenous-shutdown-decider>
+                        <s-curve-shutdown-decider name="s-curve" delete="1">
+                        </s-curve-shutdown-decider>
+                        <profit-shutdown-decider name="profit" delete="1">>
+                        </profit-shutdown-decider>
+                      </period>
+		    </stub-technology>
+		    <stub-technology name="Gen_II_LWR (recirculating)">
+                      <period year="2015">
+                          <exogenous-shutdown-decider name="exogenous-shutdown">
+                            <output-scalar year="2020">1</output-scalar>
+                            <output-scalar year="2025">1</output-scalar>
+                            <output-scalar year="2030">1</output-scalar>
+                            <output-scalar year="2035">1</output-scalar>
+                            <output-scalar year="2040">1</output-scalar>
+                            <output-scalar year="2045">1</output-scalar>
+                            <output-scalar year="2050">1</output-scalar>
+                            <output-scalar year="2055">0</output-scalar>
+                            <output-scalar year="2060">0</output-scalar>
+                            <output-scalar year="2065">0</output-scalar>
+                            <output-scalar year="2070">0</output-scalar>
+                            <output-scalar year="2075">0.0</output-scalar>
+                            <output-scalar year="2080">0.0</output-scalar>
+                            <output-scalar year="2085">0.0</output-scalar>
+                            <output-scalar year="2090">0.0</output-scalar>
+                            <output-scalar year="2095">0.0</output-scalar>
+                            <output-scalar year="2100">0.0</output-scalar>
+                           </exogenous-shutdown-decider>
+                        <s-curve-shutdown-decider name="s-curve" delete="1">
+                        </s-curve-shutdown-decider>
+                        <profit-shutdown-decider name="profit" delete="1">>
+                        </profit-shutdown-decider>
+                      </period>
+		    </stub-technology>
+		    <stub-technology name="Gen_II_LWR (cooling pond)">
+                      <period year="2015">
+                          <exogenous-shutdown-decider name="exogenous-shutdown">
+                            <output-scalar year="2020">1</output-scalar>
+                            <output-scalar year="2025">1</output-scalar>
+                            <output-scalar year="2030">1</output-scalar>
+                            <output-scalar year="2035">1</output-scalar>
+                            <output-scalar year="2040">1</output-scalar>
+                            <output-scalar year="2045">1</output-scalar>
+                            <output-scalar year="2050">1</output-scalar>
+                            <output-scalar year="2055">0</output-scalar>
+                            <output-scalar year="2060">0</output-scalar>
+                            <output-scalar year="2065">0</output-scalar>
+                            <output-scalar year="2070">0</output-scalar>
+                            <output-scalar year="2075">0.0</output-scalar>
+                            <output-scalar year="2080">0.0</output-scalar>
+                            <output-scalar year="2085">0.0</output-scalar>
+                            <output-scalar year="2090">0.0</output-scalar>
+                            <output-scalar year="2095">0.0</output-scalar>
+                            <output-scalar year="2100">0.0</output-scalar>
+                           </exogenous-shutdown-decider>
+                        <s-curve-shutdown-decider name="s-curve" delete="1">
+                        </s-curve-shutdown-decider>
+                        <profit-shutdown-decider name="profit" delete="1">>
+                        </profit-shutdown-decider>
+                      </period>
+		    </stub-technology>
                 </subsector>
-            </supplysector>
+            </pass-through-sector>
         </region>
    </world>
 </scenario>
