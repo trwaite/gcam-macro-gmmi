@@ -459,7 +459,7 @@
                     </stub-technology>
                 </subsector>
                 <subsector name="nuclear">
-                    <stub-technology name="thermal splitting">
+                    <stub-technology name="electrolysis">
                         <period year="1975">
                             <minicam-non-energy-input name="subsidy">
                                 <input-cost>0</input-cost>
@@ -1030,7 +1030,7 @@
                 </subsector>
             </supplysector>
             <supplysector name="H2 industrial">
-                <subsector name="forecourt production">
+                <subsector name="onsite production">
                     <stub-technology name="electrolysis">
                         <period year="1975">
                             <minicam-non-energy-input name="subsidy">

@@ -459,7 +459,7 @@
                     </stub-technology>
                 </subsector>
                 <subsector name="nuclear">
-                    <stub-technology name="thermal splitting">
+                    <stub-technology name="electrolysis">
                         <period year="1975">
                             <minicam-non-energy-input name="subsidy">
                                 <input-cost>0</input-cost>
