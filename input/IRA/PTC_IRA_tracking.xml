@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+			<unlimited-resource name="PTC">
+				<price year="1975" fillout="1">1</price>
+				<output-unit>billions 1975$</output-unit>
+				<market>USA</market>
+			</unlimited-resource>
+			
+           <supplysector name="electricity">
+                <subsector name="solar">
+                      <stub-technology name="PV">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.33</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="PV_storage">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.33</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="wind">
+                    <stub-technology name="wind">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.16</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.33</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="wind_storage">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.16</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.33</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+
+	    <supplysector name="elec_CSP">
+		<subsector name="CSP">
+		    <stub-technology name="CSP (recirculating)">
+			<period year="2020">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>0</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2025">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2030">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2035">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.33</coefficient>
+			    </minicam-energy-input>
+			</period>
+		    </stub-technology>
+		    <stub-technology name="CSP (dry_hybrid)">
+			<period year="2020">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>0</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2025">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2030">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2035">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.33</coefficient>
+			    </minicam-energy-input>
+			</period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+
+	    <supplysector name="elec_CSP_storage">
+		<subsector name="CSP_storage">
+		    <stub-technology name="CSP_storage (recirculating)">
+			<period year="2020">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>0</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2025">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2030">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2035">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.33</coefficient>
+			    </minicam-energy-input>
+			</period>
+		    </stub-technology>
+		    <stub-technology name="CSP_storage (dry_hybrid)">
+			<period year="2020">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>0</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2025">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2030">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.58</coefficient>
+			    </minicam-energy-input>
+			</period>
+			<period year="2035">
+			    <minicam-energy-input name="PTC">
+			        <coefficient>-1.33</coefficient>
+			    </minicam-energy-input>
+			</period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+
+	    <supplysector name="elec_Gen_III">
+		<subsector name="Gen_III">
+		    <stub-technology name="Gen_III (once through)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.39</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="Gen_III (seawater)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.39</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="Gen_III (recirculating)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.39</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="Gen_III (cooling pond)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.98</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.39</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+
+	    <supplysector name="elec_geothermal">
+		<subsector name="geothermal">
+		    <stub-technology name="geothermal (recirculating)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.71</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.33</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="geothermal (dry_hybrid)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.71</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.58</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-1.33</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+
+	    <supplysector name="elec_biomass (conv)">
+		<subsector name="biomass (conv)">
+		    <stub-technology name="biomass (conv) (once through)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="biomass (conv) (seawater)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="biomass (conv) (recirculating)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="biomass (conv) (cooling pond)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="biomass (conv) (dry cooling)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+
+	    <supplysector name="elec_biomass (IGCC)">
+		<subsector name="biomass (IGCC)">
+		    <stub-technology name="biomass (IGCC) (once through)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="biomass (IGCC) (seawater)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="biomass (IGCC) (recirculating)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		    <stub-technology name="biomass (IGCC) (dry cooling)">
+                        <period year="2020">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.86</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.79</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="PTC">
+                                <coefficient>-0.67</coefficient>
+                            </minicam-energy-input>
+                        </period>
+		    </stub-technology>
+		</subsector>
+	    </supplysector>
+
+        </region>
+    </world>
+</scenario>

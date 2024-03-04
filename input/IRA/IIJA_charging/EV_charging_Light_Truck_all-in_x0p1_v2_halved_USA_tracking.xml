@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="trn_freight_road">
+                <tranSubsector name="Light truck">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="IIJA_charging">
+                                <coefficient>-0.020580265</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="IIJA_charging">
+                                <coefficient>-0.020580265</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="IIJA_charging">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="IIJA_charging">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="IIJA_charging">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="IIJA_charging">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

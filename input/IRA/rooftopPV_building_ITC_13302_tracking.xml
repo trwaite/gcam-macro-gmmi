@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+	    <unlimited-resource name="IRA_13302">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+            <supplysector name="elect_td_bld">
+                <subsector name="rooftop_pv">
+                    <stub-technology name="rooftop_pv">
+                        <period year="2020">
+                            <minicam-energy-input name="IRA_13302">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-2.508</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="IRA_13302">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2025">-1.937</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="IRA_13302">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2030">-1.434</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="IRA_13302">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2035">-0.855</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="IRA_13302">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2040">-0.342</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="IRA_13302">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2045">-0.317</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="IRA_13302">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2050">-0.305</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

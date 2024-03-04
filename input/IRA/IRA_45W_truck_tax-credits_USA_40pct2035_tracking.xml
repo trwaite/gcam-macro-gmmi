@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+	    <unlimited-resource name="IRA_45W_heavy-truck_tax-credit">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+	    <unlimited-resource name="IRA_45W_medium-truck_tax-credit">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+	    <unlimited-resource name="IRA_45W_light-truck_tax-credit">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+	    <unlimited-resource name="IRA_45W_bus_tax-credit">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+            <supplysector name="trn_freight_road">
+                <tranSubsector name="Heavy truck">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA_45W_heavy-truck_tax-credit">
+                                <coefficient>-0.048775</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="IRA_45W_heavy-truck_tax-credit">
+                                <coefficient>-0.048775</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="IRA_45W_heavy-truck_tax-credit">
+                                <coefficient>-0.019510</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="IRA_45W_heavy-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="IRA_45W_heavy-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="IRA_45W_heavy-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+                <tranSubsector name="Medium truck">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA_45W_medium-truck_tax-credit">
+                                <coefficient>-0.030801</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="IRA_45W_medium-truck_tax-credit">
+                                <coefficient>-0.030801</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="IRA_45W_medium-truck_tax-credit">
+                                <coefficient>-0.012320</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="IRA_45W_medium-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="IRA_45W_medium-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="IRA_45W_medium-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+                <tranSubsector name="Light truck">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA_45W_light-truck_tax-credit">
+                                <coefficient>-0.03352</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="IRA_45W_light-truck_tax-credit">
+                                <coefficient>-0.03352</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="IRA_45W_light-truck_tax-credit">
+                                <coefficient>-0.013408</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="IRA_45W_light-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="IRA_45W_light-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="IRA_45W_light-truck_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+            </supplysector>
+            <supplysector name="trn_pass_road">
+                <tranSubsector name="Bus">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA_45W_bus_tax-credit">
+                                <coefficient>-0.067676764</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="IRA_45W_bus_tax-credit">
+                                <coefficient>-0.067676764</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="IRA_45W_bus_tax-credit">
+                                <coefficient>-0.027071</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="IRA_45W_bus_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="IRA_45W_bus_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="IRA_45W_bus_tax-credit">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

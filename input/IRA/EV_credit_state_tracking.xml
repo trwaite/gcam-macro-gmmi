@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+	    <unlimited-resource name="state_EV_credits">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+            <supplysector name="trn_pass_road_LDV_4W">
+                <subsector name="Car">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0125</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0125</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0125</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0124</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0124</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0123</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FCEV">
+                        <period year="2025">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0185</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0182</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0179</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0176</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0173</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.017</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="Large Car and Truck">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0157</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0156</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0155</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0155</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0154</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0154</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FCEV">
+                        <period year="2025">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0226</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0222</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0218</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0215</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0211</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="state_EV_credits">
+                                <coefficient>-0.0208</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

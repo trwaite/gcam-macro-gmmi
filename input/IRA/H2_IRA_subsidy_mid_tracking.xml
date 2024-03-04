@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+	    <unlimited-resource name="H2 subsidy">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+            <supplysector name="H2 central production">
+                <subsector name="biomass">
+                    <stub-technology name="biomass to H2">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="coal">
+                    <stub-technology name="coal chemical">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="electricity">
+                    <stub-technology name="electrolysis">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-1.0255</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="gas">
+                    <stub-technology name="natural gas steam reforming">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="nuclear">
+                    <stub-technology name="electrolysis">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="solar">
+                    <stub-technology name="electrolysis">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="wind">
+                    <stub-technology name="electrolysis">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-4.102</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="H2 wholesale dispensing">
+                <subsector name="forecourt production">
+                    <stub-technology name="electrolysis">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-1.0255</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="natural gas steam reforming">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="H2 industrial">
+                <subsector name="onsite production">
+                    <stub-technology name="electrolysis">
+                        <period year="1975">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="1990">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2005">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2010">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2015">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2020">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>-1.0255</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2055">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2060">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2065">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2070">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2075">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2080">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2085">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2090">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2095">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2100">
+                            <minicam-energy-input name="H2 subsidy">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

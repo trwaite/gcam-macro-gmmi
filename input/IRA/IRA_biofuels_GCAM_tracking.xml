@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+	    <unlimited-resource name="IRA biofuel subsidy">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+            <supplysector name="refining">
+                <subsector name="biomass liquids">
+                    <stub-technology name="biodiesel">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA biofuel subsidy">
+                                <coefficient>-1.639</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA biofuel subsidy">
+                                <coefficient>-1.8906</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA biofuel subsidy">
+                                <coefficient>-2.0849</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 1">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA biofuel subsidy">
+                                <coefficient>-1.8906</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="cellulosic ethanol CCS level 2">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA biofuel subsidy">
+                                <coefficient>-1.8906</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 1">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA biofuel subsidy">
+                                <coefficient>-2.9188</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FT biofuels CCS level 2">
+                        <period year="2025">
+                            <minicam-energy-input name="IRA biofuel subsidy">
+                                <coefficient>-2.9188</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

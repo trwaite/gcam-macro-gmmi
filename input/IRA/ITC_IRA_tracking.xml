@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+	    <unlimited-resource name="ITC">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+
+
+            <supplysector name="electricity">
+                <subsector name="solar">
+                    <stub-technology name="PV">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-2.107</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="PV_storage">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-10.491</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="wind">
+                    <stub-technology name="wind_offshore">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-2.094</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2025">-1.603</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2030">-1.392</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2035">-1.083</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="elect_td_bld">
+                <subsector name="rooftop_pv">
+                    <stub-technology name="rooftop_pv">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-0.965</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2025">-0.603</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2030">-0.446</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2035">-0.311</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+	    <supplysector name="elec_CSP">
+		<subsector name="CSP">
+                    <stub-technology name="CSP (recirculating)">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-4.745</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="CSP (dry_hybrid)">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-4.745</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+		</subsector>
+	    </supplysector>
+	    <supplysector name="elec_CSP_storage">
+		<subsector name="CSP_storage">
+                    <stub-technology name="CSP_storage (recirculating)">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-4.041</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="CSP_storage (dry_hybrid)">
+                        <period year="2020">
+                            <minicam-energy-input name="ITC">
+                                <current-coef year="1975" fillout="1">0</current-coef>
+				<current-coef year="2020">-4.041</current-coef>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+		</subsector>
+	    </supplysector>
+        </region>
+    </world>
+</scenario>

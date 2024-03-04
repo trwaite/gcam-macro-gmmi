@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="USA">
+	    <unlimited-resource name="EV_bus_investments">
+		<price year="1975" fillout="1">1</price>
+		<output-unit>billions 1975$</output-unit>
+		<market>USA</market>
+	    </unlimited-resource>
+            <supplysector name="trn_pass_road">
+                <tranSubsector name="Bus">
+                    <stub-technology name="BEV">
+                        <period year="2025">
+                            <minicam-energy-input name="EV_bus_investments">
+                                <coefficient>-0.04934069</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-energy-input name="EV_bus_investments">
+                                <coefficient>-0.04934069</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="EV_bus_investments">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-energy-input name="EV_bus_investments">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-energy-input name="EV_bus_investments">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-energy-input name="EV_bus_investments">
+                                <coefficient>0</coefficient>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </tranSubsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
