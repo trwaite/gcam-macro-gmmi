@@ -25,7 +25,8 @@ module_energy_en_distribution_xml <- function(command, ...) {
               "L226.GlobalTechShrwt_en",
               "L226.StubTechCoef_elecownuse",
               "L226.StubTechCoef_electd",
-              "L226.StubTechCoef_gaspipe"))
+              "L226.StubTechCoef_gaspipe",
+             "L226.GlobalTechLifetime"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c(XML = "en_distribution.xml"))
   } else if(command == driver.MAKE) {
@@ -47,6 +48,7 @@ module_energy_en_distribution_xml <- function(command, ...) {
     L226.StubTechCoef_elecownuse <- get_data(all_data, "L226.StubTechCoef_elecownuse")
     L226.StubTechCoef_electd <- get_data(all_data, "L226.StubTechCoef_electd")
     L226.StubTechCoef_gaspipe <- get_data(all_data, "L226.StubTechCoef_gaspipe")
+    L226.GlobalTechLifetime <- get_data(all_data, "L226.GlobalTechLifetime")
 
     # ===================================================
 
@@ -88,6 +90,7 @@ module_energy_en_distribution_xml <- function(command, ...) {
       add_xml_data(L226.GlobalTechTrackCapital_en, "GlobalTechTrackCapital") %>%
       add_xml_data(L226.GlobalTechCost_en, "GlobalTechCost") %>%
       add_xml_data(L226.GlobalTechShrwt_en, "GlobalTechShrwt") %>%
+      add_xml_data(L226.GlobalTechLifetime, "GlobalTechLifetime") %>%
       add_xml_data(L226.StubTechCoef_elecownuse, "StubTechCoef") %>%
       add_xml_data(L226.StubTechCoef_electd, "StubTechCoef") %>%
       add_xml_data(L226.StubTechCoef_gaspipe, "StubTechCoef") %>%
@@ -104,7 +107,8 @@ module_energy_en_distribution_xml <- function(command, ...) {
                      "L226.GlobalTechShrwt_en",
                      "L226.StubTechCoef_elecownuse",
                      "L226.StubTechCoef_electd",
-                     "L226.StubTechCoef_gaspipe") ->
+                     "L226.StubTechCoef_gaspipe",
+                     "L226.GlobalTechLifetime") ->
       en_distribution.xml
 
     return_data(en_distribution.xml)

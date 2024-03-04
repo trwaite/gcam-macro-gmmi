@@ -1,0 +1,8 @@
+# File: A26.globaltech_lifetime.csv
+# Title: Lifetimes for final energy
+# Units: 1975 USD/GJ
+# Description: This is used to establish vintaging for rooftop PV.
+# Column types: cccci
+# ----------
+supplysector,subsector,technology,year,lifetime
+elect_td_bld,elect_td_bld,elect_td_bld,final-calibration-year,15

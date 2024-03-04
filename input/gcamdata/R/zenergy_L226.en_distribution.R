@@ -9,7 +9,7 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L226.SectorLogitTables[[ curr_table ]]$data}, \code{L226.Supplysector_en}, \code{L226.SubsectorLogitTables[[ curr_table ]]$data}, \code{L226.SubsectorLogit_en}, \code{L226.SubsectorShrwt_en}, \code{L226.SubsectorShrwtFllt_en}, \code{L226.SubsectorInterp_en}, \code{L226.SubsectorInterpTo_en}, \code{L226.StubTech_en}, \code{L226.GlobalTechEff_en}, \code{L226.GlobalTechCost_en}, \code{L226.GlobalTechTrackCapital_en}, \code{L226.GlobalTechShrwt_en}, \code{L226.StubTechCoef_elecownuse}, \code{L226.StubTechCoef_electd}, \code{L226.StubTechCoef_gaspipe}. The corresponding file in the
+#' the generated outputs: \code{L226.SectorLogitTables[[ curr_table ]]$data}, \code{L226.Supplysector_en}, \code{L226.SubsectorLogitTables[[ curr_table ]]$data}, \code{L226.SubsectorLogit_en}, \code{L226.SubsectorShrwt_en}, \code{L226.SubsectorShrwtFllt_en}, \code{L226.SubsectorInterp_en}, \code{L226.SubsectorInterpTo_en}, \code{L226.StubTech_en}, \code{L226.GlobalTechEff_en}, \code{L226.GlobalTechCost_en}, \code{L226.GlobalTechTrackCapital_en}, \code{L226.GlobalTechShrwt_en}, \code{L226.StubTechCoef_elecownuse}, \code{L226.StubTechCoef_electd}, \code{L226.StubTechCoef_gaspipe}, \code{L226.GlobalTechLifetime}. The corresponding file in the
 #' original data system was \code{L226.en_distribution.R} (energy level2).
 #' @details Prepares Level 2 data on energy distribution sector for the generation of en_distribution.xml.
 #' Creates global technology database info--cost, shareweight, logit, efficiencies, and interpolations--and regional values where applicable for electricity net ownuse, gas pipelines, and transmission and distribution.
@@ -29,6 +29,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
              FILE = "energy/A26.globaltech_eff",
              FILE = "energy/A26.globaltech_cost",
              FILE = "energy/A26.globaltech_shrwt",
+             FILE = "energy/A26.globaltech_lifetime",
              "L126.IO_R_elecownuse_F_Yh",
              "L126.IO_R_electd_F_Yh",
              "L126.IO_R_gaspipe_F_Yh"))
@@ -46,7 +47,8 @@ module_energy_L226.en_distribution <- function(command, ...) {
              "L226.GlobalTechShrwt_en",
              "L226.StubTechCoef_elecownuse",
              "L226.StubTechCoef_electd",
-             "L226.StubTechCoef_gaspipe"))
+             "L226.StubTechCoef_gaspipe",
+             "L226.GlobalTechLifetime"))
   } else if(command == driver.MAKE) {
 
     # Silence global variable package check
@@ -68,6 +70,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
     A26.globaltech_eff <- get_data(all_data, "energy/A26.globaltech_eff")
     A26.globaltech_cost <- get_data(all_data, "energy/A26.globaltech_cost")
     A26.globaltech_shrwt <- get_data(all_data, "energy/A26.globaltech_shrwt", strip_attributes = TRUE)
+    A26.globaltech_lifetime <- get_data(all_data, "energy/A26.globaltech_lifetime", strip_attributes = TRUE)
     L126.IO_R_elecownuse_F_Yh <- get_data(all_data, "L126.IO_R_elecownuse_F_Yh", strip_attributes = TRUE)
     L126.IO_R_electd_F_Yh <- get_data(all_data, "L126.IO_R_electd_F_Yh")
     L126.IO_R_gaspipe_F_Yh <- get_data(all_data, "L126.IO_R_gaspipe_F_Yh")
@@ -192,6 +195,18 @@ module_energy_L226.en_distribution <- function(command, ...) {
       # Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
       rename(sector.name = supplysector, subsector.name = subsector) ->
       L226.GlobalTechShrwt_en
+
+    # L226.GlobalTechLifetime: lifetimes (used to add vintaging to rooftop pv)
+    L226.GlobalTechLifetime <- A26.globaltech_lifetime %>%
+      set_years() %>%
+      mutate(year = as.integer(year)) %>%
+      # write to all future years
+      filter(year == MODEL_FINAL_BASE_YEAR) %>%
+      select(-year) %>%
+      repeat_add_columns(tibble(year = c(MODEL_FINAL_BASE_YEAR,
+                                         MODEL_FUTURE_YEARS))) %>%
+      rename(sector.name = supplysector, subsector.name = subsector) %>%
+      select(LEVEL2_DATA_NAMES[["GlobalTechLifetime"]])
 
     # 2d. Calibration and region-specific data
     # Electricity ownuse IO coefs - filter down to the base years and append region IDs
@@ -408,6 +423,13 @@ module_energy_L226.en_distribution <- function(command, ...) {
       add_precursors("energy/A26.globaltech_shrwt") ->
       L226.GlobalTechShrwt_en
 
+    L226.GlobalTechLifetime %>%
+      add_title("Lifetimes for final energy distribution") %>%
+      add_units("years") %>%
+      add_comments("This is used to establish vintaging for rooftop PV") %>%
+      add_precursors("energy/A26.globaltech_lifetime") ->
+      L226.GlobalTechLifetime
+
     L226.StubTechCoef_elecownuse %>%
       add_title("Input-Output Coefficients for electricity sectors' own electricity use") %>%
       add_units("IO coefficient - Unitless") %>%
@@ -435,7 +457,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
       L226.StubTechCoef_gaspipe
 
     return_data(L226.Supplysector_en, L226.SubsectorLogit_en, L226.SubsectorShrwt_en,
-                L226.SubsectorShrwtFllt_en, L226.SubsectorInterp_en, L226.SubsectorInterpTo_en,
+                L226.SubsectorShrwtFllt_en, L226.SubsectorInterp_en, L226.SubsectorInterpTo_en, L226.GlobalTechLifetime,
                 L226.StubTech_en, L226.GlobalTechEff_en, L226.GlobalTechCost_en, L226.GlobalTechTrackCapital_en, L226.GlobalTechShrwt_en,
                 L226.StubTechCoef_elecownuse, L226.StubTechCoef_electd, L226.StubTechCoef_gaspipe)
   } else {
